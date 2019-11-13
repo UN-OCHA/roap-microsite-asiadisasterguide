@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <title>UN web</title>
+        <link rel="stylesheet" href="cs/bootstrap.min.css">
+        <link rel="stylesheet" href="cs/style.min.css">
+    </head>
+
+    <body itemscope itemtype="http://schema.org/WebPage" class="app">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <a href="#" class="togglebtn" onclick="myFunction(this)">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <h1 class="logo">
+                        <a href="index.html" title="Logo OCHA">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="header-cover">
+                <div class="container">
+                    <img src="images/cover-head.png" alt="">
+                    <div class="header-cover-wrap">
+                        <h2> DISASTER RESPONSE<br> IN ASIA AND THE PACIFIC </h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <a href="index.html">INTRODUCTION</a>
+                    <div class="subnav">
+                        <a href="II-guidance-frameworks.html" class="subnav-link">GUIDANCE FRAMEWORKS</a>
+                        <button type="button" class="subnav-btn"><i class="icon icon-arr-down"></i></button>
+                        <ul class="subnav-content">
+                            <li><a href="II-guidance-frameworks.html?sec2A" class="menu">Non-binding regulatory agreements between States</a></li>
+                            <li><a href="II-guidance-frameworks.html?sec2B" class="menu">Binding regulatory agreements between States</a></li>
+                            <li><a href="II-guidance-frameworks.html?sec2C" class="menu">Voluntary guidelines governing humanitarian action</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <a href="III-humanitarian-actors.html" class="subnav-link">HUMANITARIAN ACTORS</a>
+                        <button type="button" class="subnav-btn"><i class="icon icon-arr-down"></i></button>
+                        <ul class="subnav-content">
+                            <li><a href="III-humanitarian-actors.html?sec3A" class="menu">United Nations</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3B" class="menu">Red Cross and Red Crescent Movement</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3C" class="menu">Regional organizations and intergovernmental forums</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3D" class="menu">Non-governmental organizations</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3E" class="menu">Assisting Governments</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3F" class="menu">Foreign military assets</a></li>
+                            <li><a href="III-humanitarian-actors.html?sec3G" class="menu">Private sector</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <a href="IV-international-coordination.html" class="subnav-link">INTERNATIONAL COORDINATION</a>
+                        <button type="button" class="subnav-btn"><i class="icon icon-arr-down"></i></button>
+                        <ul class="subnav-content">
+                            <li><a href="IV-international-coordination.html?sec4A" class="menu">Global-level mechanisms</a></li>
+                            <li><a href="IV-international-coordination.html?sec4B" class="menu">Regional-level mechanisms</a></li>
+                            <li><a href="IV-international-coordination.html?sec4C" class="menu">Country-level mechanisms</a></li>
+                            <li><a href="IV-international-coordination.html?sec4D" class="menu">Coordinating actors</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <a href="V-tool-and-services.html" class="subnav-link">TOOLS AND SERVICES</a>
+                        <button type="button" class="subnav-btn"><i class="icon icon-arr-down"></i></button>
+                        <ul class="subnav-content">
+                            <li><a href="V-tool-and-services.html?sec5A" class="menu">Technical teams</a></li>
+                            <li><a href="V-tool-and-services.html?sec5B" class="menu">Relief assets and stockpiles</a></li>
+                            <li><a href="V-tool-and-services.html?sec5C" class="menu">Standby and surge rosters</a></li>
+                            <li><a href="V-tool-and-services.html?sec5D" class="menu">Information management</a></li>
+                            <li><a href="V-tool-and-services.html?sec5E" class="menu">Emergency response preparedness</a></li>
+                            <li><a href="V-tool-and-services.html?sec5F" class="menu">Humanitarian financing mechanisms</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <a href="VI-early-warning.html" class="subnav-link">EARLY WARNING</a>
+                        <button type="button" class="subnav-btn"><i class="icon icon-arr-down"></i></button>
+                        <ul class="subnav-content">
+                            <li><a href="VI-early-warning.html?sec6A">Early warning systems</a></li>
+                        </ul>
+                    </div>
+                    <a href="images/download/ROAP_DisasterGuide.pdf" class="download-mb" download target="_blank">DOWNLOAD THE PDF</a>
+                </div>
+            </div>
+        </div>
+        <div class="app-wrap">
+            <div class="container">
+                <div class="social social-top">
+                    <a href="#" title="Email" class="social-mail"><i class="icon icon-mail"></i></a>
+                    <a href="#" title="Facebook" class="social-face"><i class="icon icon-facebook"></i></a>
+                    <input type="text" value="" id="hid_link">
+                    <button title="Copy URL" class="social-copylink"><i class="icon icon-duplicate"></i></button>
+                </div>
+                <h2 class="title-main">V. TOOLS AND SERVICES</h2>
+                <p> This section describes some of the most important international tools and services available for disaster response in Asia and the Pacific. </p>
+                <p> As previously explained, the primary responders in any emergency are disaster-affected communities and their Governments. International tools and services are only activated when disaster response needs exceed national capacities and an affected Government requests and/ or accepts international assistance. There are also technical services that can be triggered to support national Governments and international organizations in their response. For the purposes of the Guide, technical services include everything from pre-positioned supplies to communications technology packages to emergency surge rosters. This section covers international tools and services under the following areas: </p>
+                <h4 class="title-five">A. TECHNICAL TEAMS</h4>
+                <ol>
+                    <li>Bilateral</li>
+                    <li>Intergovernmental</li>
+                    <li>RCRC Movement</li>
+                </ol>
+                <h4 class="title-five">B. RELIEF ASSETS AND STOCKPILES</h4>
+                <ol>
+                    <li>International</li>
+                    <li>Regional</li>
+                </ol>
+                <h4 class="title-five">C. STANDBY AND SURGE ROSTERS</h4>
+                <ol>
+                    <li>Inter-agency</li>
+                    <li>Non-governmental organization</li>
+                    <li>Private sector</li>
+                </ol>
+                <h4 class="title-five">D. INFORMATION MANAGEMENT</h4>
+                <ol>
+                    <li>Information Management Services and Products</li>
+                    <li>Humanitarian Websites</li>
+                    <li>Satellite Imagery and Mapping Capacities</li>
+                    <li>Assessment Tools</li>
+                </ol>
+                <h4 class="title-five">E. EMERGENCY RESPONSE PREPAREDNESS</h4>
+                <ol>
+                    <li>Legal Preparedness</li>
+                    <li>Emergency Response Preparedness Planning</li>
+                </ol>
+                <h4 class="title-five">F. HUMANITARIAN FINANCING MECHANISMS</h4>
+                <ol>
+                    <li>International Financing Mechanisms</li>
+                    <li>Regional Financing Mechanisms</li>
+                    <li>Strategic Planning Tools</li>
+                </ol>
+                <section class="section-note">
+                    <h3>HOW TO READ THIS SECTION</h3>
+                    <p> There is a short description of each tool and service, followed by two call outs: <strong>WHO IS IT FOR? HOW IS IT ACCESSED?</strong>
+                    </p>
+                </section>
+                <section id="sec5A">
+                    <h2 class="title-second">A. TECHNICAL TEAMS</h2>
+                    <p> A range of international technical teams can be mobilized within hours of a disaster to support a Government’s relief efforts. Described here are the purpose, composition and activation modalities of bilateral, intergovernmental and RCRC Movement technical teams. These teams are generally deployed in large and sometimes medium-scale disasters. They exist in addition to the many sector-specific technical teams deployed by Governments, clusters, and other individual agencies and are designed to complement their work. </p>
+                    <h3 class="title-five">1. BILATERAL</h3>
+                    <ul class="lower-latin">
+                        <li>Urban Search and Rescue Teams (USAR)</li>
+                        <li>Emergency Medical Teams (EMTs)</li>
+                        <li>Bilateral technical response teams</li>
+                    </ul>
+                    <h3 class="title-five">2. INTERGOVERNMENTAL</h3>
+                    <ul class="lower-latin">
+                        <li>UN Disaster Assessment and Coordination (UNDAC)</li>
+                        <li>UN Environment/OCHA Joint Unit (JEU)</li>
+                        <li>ASEAN Emergency Response and Assessment Team (ERAT)</li>
+                    </ul>
+                    <h3 class="title-five">3. RCRC MOVEMENT</h3>
+                    <ul class="lower-latin">
+                        <li>Regional Disaster Response Teams (RDRT)</li>
+                        <li>Field Assessment and Coordination Teams (FACT)</li>
+                        <li>Emergency Response Units (ERU)</li><br><br>
+                    </ul>
+                </section>
+                <h4 class="title-blue">1. BILATERAL</h4>
+                <p>
+                    <span><a href="https://www.insarag.org/" title="" target="_blank">Urban Search and Rescue Teams (USAR)</a></span> are composed of trained experts who provide rescue and rescue assistance in an emergency such as earthquakes or structural collapse. USAR teams that deploy internationally generally comprise expert personnel, specialized equipment and search dogs. They can be operational within 24 to 48 hours of a disaster. USAR teams are offered and received bilaterally and/or with coordination support from the OCHA-managed International Search and Rescue Advisory Group (INSARAG). The advantage of working with INSARAG to receive international USAR teams is that their precise capacities and capabilities are specified through an INSARAG External Classification (IEC) system and the teams work according to internationally-agreed standards and modalities. </p>
+                <p> Training in the INSARAG Guidelines and Methodology provides technical expertise in international USAR response according to the following phases: preparedness, mobilization, operations, demobilization and post-mission. INSARAG training is designed so that in an emergency, USAR teams share internationally accepted procedures and systems for sustained cooperation. </p>
+                <p> In addition to engagement with the INSARAG Guidelines, INSARAG member countries with USAR teams deploying internationally are encouraged to apply for IEC. The IEC is an independent, peer-review of international USAR teams that have been endorsed by INSARAG. <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="It should be noted that IEC Classification is a multi-year process and there is a waitlist to become certified. IEC teams are expected to undergo reclassification every five years.">1</button> The IEC classifies teams as “Medium” or “Heavy” to ensure that only qualified and appropriate USAR resources are deployed in an emergency. <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="“Light” USAR teams are also very important due to their speed and agility in reaching disaster-affected communities, but they are primarily designed for deployment at the national level.">2</button> In Asia-Pacific, there are currently eight USAR teams classified by INSARAG as heavy. There are five more whose classification is currently in progress (Figure 13). </p>
+                <p>
+                    <strong>USAR Coordination Cell (UCC)</strong> is part of the On-Site Operations Coordination Centre (OSOCC), a common platform for the coordination of international response activities (See page 65 for more details). The UCC uses the INSARAG methodology to coordinate international USAR teams in support of and in cooperation with the national authorities. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> USAR teams support the search-and-rescue efforts of national Governments, particularly in urban settings where there are collapsed structures. INSARAG training is available to any Government or organization with a stake in USAR. USAR Coordination Cell training supports Government-led coordination of deploying USAR teams in a response. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 13. INSARAG-Classified USAR Teams in Asia-Pacific</figcaption>
+                    <img src="images/figure/fig-13.png" alt="">
+                </figure>
+                <h3 class="title-third">MEDIUM AND HEAVY USAR TEAMS</h3>
+                <p>INSARAG classifies USAR teams into three categories: light, medium, and heavy.</p>
+                <p> 1. <strong>Light USAR teams</strong> have the operational capability to assist with surface search and rescue in the immediate aftermath of a disaster. Light USAR teams are not normally recommended for international deployment. </p>
+                <p> 2. <strong>Medium USAR teams</strong> have the operational capability to conduct technical search and rescue operations in structural-collapse incidents. Medium USAR teams are required to be able to search for trapped people. International Medium USAR teams travelling to an affected country should be operational in the affected country within 32 hours of when the disaster is posted on the Virtual OSOCC. A medium team must be adequately staffed to allow for 24-hour operations at one site for up to seven days. </p>
+                <p> 3. <strong>Heavy USAR teams</strong> have the operational capability for difficult and technical search-and-rescue operations. Heavy USAR teams are required to be able to search for trapped people and use canine and technical systems. They are also required to provide international assistance in disasters resulting in the collapse of multiple structures, typically in urban settings, when national response capacity has either been overwhelmed or does not have the required capability. International heavy USAR teams travelling to an affected country should be operational in the affected country within 48 hours of when the disaster is posted on the Virtual OSOCC. A heavy team must be adequately resourced to allow for 24-hour operations at two separate sites for up to 10 days. <small>Source: INSARAG Guidelines.</small>
+                </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> A Government seeking assistance in activating international USAR teams through INSARAG can do so through a pre-identified INSARAG National Focal Point or directly through the INSARAG secretariat at insarag@un.org. Countries interested in joining the INSARAG network or participating in INSARAG or UCC training can contact the INSARAG secretariat in Geneva, Switzerland at <a href="mailto:insarag@un.org">insarag@un.org</a>. OCHA-ROAP is also a liaison between countries in Asia and the Pacific and INSARAG, and it can be contacted at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. Account access to the Virtual OSOCC can be requested at <a href="https://vosocc.unocha.org/" target="_blank">vosocc.unocha.org</a> (See page 65 for more details on Virtual OSOCC) </p>
+                <p>
+                    <span><a href="https://extranet.who.int/emt/page/home" title="" target="_blank">Emergency Medical Teams (EMTs)</a></span> are groups of health professionals providing direct clinical care to populations affected by outbreaks and emergencies. EMTs are deployed to augment a strained or overwhelmed local health system. EMT’s include governmental (both civilian and military) and non-governmental teams and can be comprised of both national and international staff. EMTs are an important part of the global health emergency workforce and should provide a predictable, timely and self-sufficient clinical response to assist member states during emergencies, particularly disasters and outbreaks. </p>
+                <p> The WHO EMT Initiative assists organizations and member states to build capacity and strengthen health systems by coordinating the deployment of quality assured medical teams in emergencies. The WHO EMT initiative also supports Governments in building their own national EMTs. These can be deployed when needed and can achieve international classification for response in neighbouring countries. </p>
+                <p> WHO has developed a global classification system to ‘quality assure’ EMTs through peer review. There is also a global list of all EMTs that meet the WHO EMT minimum standards for deployment and who provide quality assured, clinical capacity to affected populations. This allows a country affected by a disaster or other emergency to call on classified and quality assured EMTs, ideally from their neighbours within the region. There are currently five classified governmental EMT teams in the Asia-Pacific region. There are an additional 12 NGO or governmental EMT teams whose classification is in progress (Figure 14). </p>
+                <p>
+                    <strong>EMT Coordination Cells (EMTCC)</strong> help national Ministries of Health coordinate the tasking, management and reporting of national and international EMTs. They are part of the OSOCC and are usually housed in the case management pillar of existing Ministry of Health emergency operations centres. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 14. Internationally Deployable Emergency Medical Teams in Asia-Pacific </figcaption>
+                    <img src="images/figure/fig-14.png" alt="">
+                </figure>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> EMTs support Governments and people affected by disasters and public health emergencies by ensuring a predictable and timely response from well-trained and self-sufficient teams. National EMT training is available to any Government or organization that would like to develop EMTs. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> A Government interested in activating international EMT teams can do so through the WHO EMT secretariat or through the EMT coordination pages within the Virtual OSOCC. Countries that want to register an EMT should submit an expression of interest to join the WHO Global EMT register at <a href="mailto:EMTeams@who.int"> EMTeams@who.int</a>.<br> For more information, visit <a href="https://extranet.who.int/emt/" target="_blank">extranet.who.int/emt/page/home</a>
+                </p>
+                <p>
+                    <span>Bilateral technical response teams</span> are emergency teams deployed by assisting Governments to make an initial assessment of the needs of the affected Government,UN agencies, the RCRC Movement or NGOs. Some key bilateral technical response teams active in Asia and the Pacific include the United States Agency for International Development’s (USAID) Disaster Assistance Response Team (DART), the United Kingdom Department for International Development’s (DFID) Conflict, Humanitarian and Security Department (CHASE), Japan International Cooperation Agency’s (JICA) Japan Disaster Relief (JDR) Teams, European Civil Protection and Humanitarian Aid Operations’ (ECHO) Civil Protection Team and Rapid Response Team. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The majority of these bilateral technical response teams are designed to support the assisting Government in making a decision on what type of support to provide during an emergency response. Some, such as the JDR team, also provide search and rescue, medical and other technical support. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> More information on these bilateral technical response teams can be attained from the embassies of the respective countries. </p><br>
+                <h4 class="title-blue">2. INTERGOVERNMENTAL</h4>
+                <p>
+                    <span><a href="https://www.unocha.org/legacy/what-we-do/coordination-tools/undac/overview" title="" target="_blank">UN Disaster Assessment and Coordination (UNDAC)</a></span> teams are standby teams of specially-trained international disaster management professionals from UN Member States, UN agencies and other disaster response organizations that can be deployed within 12 to 48 hours of a disaster. The primary elements of the UNDAC mandate are assessment, coordination and information management. Specialized technical assistance can also be provided (e.g. environmental emergency management). An UNDAC team normally stays in the affected area for the initial response phase, which can be up to three weeks. </p>
+                <p> An UNDAC team establishes and manages several coordination mechanisms that support response coordination: </p>
+                <ol>
+                    <li><strong><a href="https://www.unocha.org/our-work/coordination/site-operations-coordination-centre-osocc" title="" target="_blank">On-Site Operations Coordination Centre (OSOCC)</a></strong> provides a common platform for the coordination of international response efforts and services. It is simultaneously a place and a methodology, similar to a national Government’s Emergency Operations Centre, but adapted in line with its function within the international humanitarian system. There is an online OSOCC Awareness course that offers a basic understanding of the functioning and management of an OSOCC and explains the purpose, roles, structure, principles and functions of the OSOCC system. This can be accessed through the Virtual OSOCC platform.</li><br>
+                    <li><strong>The Reception and Departure Centre (RDC)</strong> is part of the On-Site Operations Coordination Centre (OSOCC). The RDC focuses on registering incoming teams, particularly USAR and EMT, and providing basic information about the situation, the operations of national and international responders, and logistical arrangements.</li><br>
+                    <li><strong><a href="https://vosocc.unocha.org/" title="" target="_blank">Virtual On-Site Operations Coordination Centre (VOSOCC)</a></strong> is a global online network and information portal that facilitates data exchange between disaster responders and affected counties before, during and after sudden-onset disasters. VOSOCC can be used to discover if a Government has requested search-and-rescue and/or medical support, coordinate the offers of EMT and USAR teams, share pre-arrival information, and track the arrival and position of teams. </li>
+                </ol>
+                <p> UNDAC training is offered via two courses: the UNDAC Induction Course and the UNDAC Refresher Course. The Induction Course is a two-week training that gives participants applicable knowledge about UNDAC’s core activities: assessment, coordination and information management. The Refresher Course is a four to five-day training course that UNDAC roster participants are required to take every two years to maintain these skill levels. UNDAC training is available to representatives of UNDAC and UNDAC participating countries. Representatives are generally from Government entities, OCHA and UN agencies, but they can also be from NGOs. Once the course is completed, participants are eligible to be added to the UNDAC emergency response roster. UNDAC roster participants are expected to be available at least two to three times a year for emergency missions. </p>
+                <p> UNDAC can evaluate and recommend ways to strengthen national response preparedness, including policies and legislation. The missions are generally conducted over two weeks. The UNDAC team then periodically reviews the progress made implementing the recommendations. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Managed by OCHA, UNDAC teams are deployed to support crisis-affected Governments, the RC/HC and the Humanitarian Country team (HCT). An UNDAC team’s deployment is free of charge. In Asia-Pacific, there have been 83 UNDAC deployment missions in 29 countries since 1993 (Figure 15). </p>
+                <section class="section-note">
+                    <h3>UNDAC TECHNICAL PARTNERSHIPS</h3>
+                    <p> UNDAC teams work with a number of technical NGOs and other partners to ensure rapid deployment and self-sufficiency. Examples include UNDAC partnerships with Télécoms Sans Frontières for telecommunications, with MapAction for on-site mapping services, with DHL for airport logistics and with UNOSAT for satellite imagery. </p>
+                </section>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> An UNDAC team is deployed at the request of an affected Government, the UN RC or the HC. Team members are funded through pre-arranged agreements with UNDAC member agencies and Governments. An UNDAC team for a response or a preparedness mission can be requested through OCHA Geneva at +41 22 917 1600, <a href="mailto:undac_alert@un.org">undac_alert@un.org</a>, or through OCHA-ROAP at +66 2288 2611 or at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. UNDAC training or more information on the OSOCC can be accessed through OCHA Field Coordination Support Services (OCHA-FCSS) at <a href="mailto:ocha-fcss@un.org">ocha-fcss@un.org</a> or through the OCHA-ROAP office at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. </p>
+                <p>
+                    <span>UN Environment/OCHA Joint Unit (JEU)</span> is the UN mechanism used to mobilize and coordinate emergency assistance to countries affected by environmental emergencies and humanitarian crises with significant environmental impact. JEU draws on the resources and knowledge of over 15 different networks and partnerships, enabling close engagement with UN agencies, programmes and affiliated organizations, as well as Member States and regional organizations. </p>
+                <p> Depending on the nature of the incident (i.e. type of hazard/accident and impact, and/or type of substance involved), the JEU will endeavour to provide the relevant expertise. The expert(s) may be deployed independently or as a part of an UNDAC mission to assess the incident, perform sampling, and, if possible, analyse the samples in-country. Upon completion of the assessment, the expert(s) will give emergency advice on how to contain the impact of the incident and what urgent mitigation actions need to be taken. In cases where special technical expertise and/or equipment are needed to manage the incident and these capacities are not available in the affected country, the JEU can facilitate the mobilization of such technical resources. </p>
+                <p> The JEU-managed <strong><a href="https://www.eecentre.org/Training" title="" target="_blank">Environmental Emergencies Centre (EEC)</a></strong> provides training that offers an overview of the environmental emergency response process and introduces tools for assessing environmental risks, contingency planning and preparing for emergencies at the local level. The EEC offers free online learning tools, classroom trainings and workshops related to the environment. Topics include disaster waste management, rapid environmental assessments, industrial accidents, and the environment in humanitarian action and readiness for response. EEC introductory and advanced training is for staff of Governments, UN organizations, public and private sector entities as well as any other environmental and humanitarian actors. The EEC provides a free online learning platform at <a href="https://www.eecentre.org/" target="_blank">www.eecentre.org/Training.</a> The Centre can also arrange face-to-face trainings and workshops. </p>
+                <p> The <strong><a href="https://www.eecentre.org/2019/06/21/eehub/" title="" target="_blank">Environmental Experts Hub (EE Hub)</a></strong> provides practical guidance to experts deploying on environmental emergency preparedness and response missions through the JEU. All the necessary information, guidance, tools and training materials in preparation for deployment can be found on its website. Through the EE Hub, it is possible to join JEU’s Community of Practice, an informal platform where experts can learn, share and keep in touch with the JEU and other environmental experts around the world. The EE Hub can be accessed online through the EEC link: eecentre.org/eehub </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The JEU is mandated to support Member States facing emergencies that have severely impacted the environment. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Through OCHA’s Duty System, the JEU is available 24/7 to mobilize assistance for those Member States facing emergencies. Upon alert of an incident or request for support on disaster preparedness, the JEU will advise on immediate actions and, if necessary, forward a request for assistance to its network of partners. Enquiries can be made at <a href="mailto:ochaunep@un.org">ochaunep@un.org</a> or through OCHA-ROAP at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 15. UNDAC employments in Asia-Pacific (1993-2017)</figcaption>
+                    <img src="images/figure/fig-15-1.png" alt="">
+                    <img src="images/figure/fig-15-2.png" alt="">
+                </figure>
+                <p>
+                    <span><a href="https://www.ahacentre.org" title="" target="_blank">ASEAN Emergency Response and Assessment Team (ERAT)</a></span> members are trained and rapidly deployable (within 24 hours) experts in emergency assessments that are available for disasters in ASEAN countries. Since 2008, 85 ERAT have been deployed for 21 missions in the Asia-Pacific region (see Figure 16). The purpose of ERAT is to assist NDMOs in the earliest phase of an emergency in a variety of areas, including (1) conducting rapid assessments; (2) estimating the scale, severity and impact of the disaster through a damage assessment and needs analysis; (3) gathering information and reporting on the immediate needs of affected people; and (4) coordinating with the AHA Centre to mobilize and deploy regional disaster management assets, and humanitarian goods and assistance to the disaster- affected areas. </p>
+                <p> ERAT team establishes a <strong>Joint Operations and Coordination Centre of ASEAN (JOCCA)</strong> as an on-site coordination system to enhance ASEAN’s collective response during large-scale disaster response in the ASEAN region and support the Government of the affected Member State. The JOCCA falls under the coordination and leadership of the affected Member States’ NDMO and, whenever possible, is co-located with the NDMO. The JOCCA has three primary objectives: (1) to support the NDMO to establish an on-site system for receiving and coordinating incoming relief assistance from ASEAN Member States; (2) to establish a physical space as a single point of service for response entities from ASEAN Member States, civil society organizations, the private sector and other ASEAN responders; and (3) to establish a coordination platform at the field level with relevant United Nations agencies and other international organizations. The JOCCA primarily focuses on facilitating international assistance from the ASEAN region. </p>
+                <p> ERAT members are trained NDMOs or staff of related ministries, but they are also partners and stakeholders from within the 10 ASEAN Member States. This enables stronger collaboration with the affected ASEAN Member States’ Government and communities. </p>
+                <p> The ERAT induction course trains disaster managers from ASEAN Member States on how to assist affected Governments and the AHA Centre in meeting regional and/or international needs for coordination, and for early and quality information during the initial phase of a sudden-onset emergency. ERAT induction courses are conducted over nine days of classroom sessions and simulation exercises. The induction course focuses on assessment, coordination, information management and equipment use within the AADMER operational framework. ERAT induction courses, with support from OCHA, have also covered UNDAC methodologies. </p>
+                <section class="section-study">
+                    <h4>CASE STUDY 4: THE ASEAN ERAT TRANSFORMATION PLAN</h4>
+                    <p> In order to address gaps identified in the response to Typhoon Haiyan (2013) in the Philippines, ASEAN is introducing three different levels of ERAT training and team membership. These are: </p>
+                    <ul>
+                        <li><strong>Level One (In-country Team):</strong> The aim of this level is to ensure that there are sufficient numbers of ERAT members trained at the country-level. To be qualified as Level 1, candidates have to go through the basic ERAT Induction Course.</li><br>
+                        <li><strong>Level Two (Regional Team):</strong> Level One roster members who attain certain standards will be given further training to become specialists or experts in specific sectors, such as humanitarian logistics, rapid assessment/early recovery, information management etc. Level 2 certified members will be part of the regionally-deployable team.</li><br>
+                        <li><strong>Level Three (Leadership):</strong> Members from Level 2 will receive additional training and experience from deployment to either simulation exercises or actual disasters. Level 3 members must be certified as UNDAC members. </li>
+                    </ul>
+                </section>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> ERAT members are deployed to support disaster-affected ASEAN Member States. ERAT induction courses are available to disaster experts from ASEAN countries, with participants nominated by ACDM Focal Points. ERAT experts comprise representatives from NDMOs, health ministries, fire and rescue services, as well as partner organizations such as ASEAN’s youth organization, Red Cross and Red Crescent Societies, and civil society. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Deployment of ERAT is free of charge. ERAT deployment can be requested from the AHA Centre at <a href="mailto:operationroom@ahacentre.org">operationroom@ahacentre.org</a> or at +62 21 210 12278. Further information is available from the AHA Centre website at <a href="https://ahacentre.org/" target="_blank">ahacentre.org</a>. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue"> Figure 16. ERAT Deployments in Asia-Pacific (2008-2017)</figcaption>
+                    <img src="images/figure/fig-16.png" alt="">
+                </figure>
+                <h4 class="title-blue">3. RCRC MOVEMENT</h4>
+                <p>
+                    <span><a href="https://www.ifrc.org/en/what-we-do/disaster-management/responding/disaster-response-system/dr-tools-and-systems/regional-disaster-response-teams/" title="" target="_blank">Regional Disaster Response Teams (RDRTs)</a></span> are entirely staffed by members of the National Societies from a particular region. The aim of the RDRTs is to actively build regional capacities in disaster management. An RDRT team is composed of National Society volunteers or staff who are usually members of their own national response teams. They are made up of a core group of people with cross-sectoral expertise, such as health, logistics, water and sanitation, as well as generalist relief workers. They are trained to work as a team and to bring assistance to National Societies in neighbouring countries. </p>
+                <p>
+                    <span><a href="https://www.ifrc.org/en/what-we-do/disaster-management/responding/disaster-response-system/dr-tools-and-systems/responding-to-disasters-field-assessment-coordination-teams-fact/" title="" target="_blank">Field Assessment Coordination Teams (FACT)</a></span> are rapidly deployable teams of disaster assessment managers who support National Societies and IFRC field offices. FACT members have technical expertise in a variety of specializations, including relief, logistics, health, nutrition, public health and epidemiology, psychological support, water and sanitation, and finance and administration. FACTs are on standby to be deployed anywhere in the world within 12 to 24 hours and for a duration of two to four weeks. </p>
+                <p>
+                    <span><a href="https://www.ifrc.org/eru" title="" target="_blank">Emergency Response Units (ERUs)</a></span> are service delivery teams of trained technical specialists mandated to give immediate support to National Societies in disaster-affected countries. They provide specific support or direct services when local facilities are destroyed, overwhelmed or do not exist. ERUs work closely with FACT. The teams use pre-packed sets of standardised equipment and are designed to be self-sufficient for three months. ERUs can be deployed within 24 to 72 hours and can operate for up to four months. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> All three technical teams are deployed to support National Societies, IFRC and Governments of disaster-affected countries. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>Information about teams can be accessed through National Societies and IFRC <a href="https://media.ifrc.org/ifrc" target="_blank">www.ifrc.org</a></p>
+                <section class="section-note">
+                    <h4>MANAGING INTERNATIONAL TECHNICAL TEAM DEPLOYMENT</h4>
+                    <p> One of the main challenges for disaster-affected Governments in the initial hours and days of an emergency is managing numerous offers of assistance, including offers to deploy USAR, EMT and other technical response teams. In the midst of a crisis, it can be difficult for Governments to evaluate what is and is not required. It can also be difficult to turn down offers of assistance. </p>
+                    <p> Although international USAR and medical teams can be critical to response to larger- scale disasters, national teams are usually responsible for the highest percentage of life-saving activities in an emergency. National teams are locally based, so they can immediately start operating when the disaster strikes. International USAR, medical and other technical teams should only be requested or accepted if national capacity has been overwhelmed. </p>
+                    <p> For this reason, Governments should think ahead about the types of disaster risk they face and evaluate the types of technical assistance they might need, from whom, and in what order of priority. Some teams can be requested to arrive in anticipation of need. For example, if a typhoon is expected to affect a certain area or population, teams can arrive before the storm hinders the ability to do so. </p>
+                    <p> Governments can also request UNDAC or ASEAN ERAT teams to manage the process of accepting or declining international offers of assistance on their behalf. This allows Government officials to focus on delivering assistance to affected people through the national response resources. </p>
+                </section>
+                <section id="sec5B">
+                    <h3 class="title-second">B. RELIEF ASSETS AND STOCKPILES</h3>
+                    <p> In the Asia-Pacific region there a number of stockpiles of relief items that are maintained and which can be accessed by Governments, UN agencies and NGOs during a disaster. </p>
+                    <h4 class="title-five">1. INTERNATIONAL</h4>
+                    <ul class="lower-latin">
+                        <li>International Humanitarian Partnership (IHP)</li>
+                        <li>UN Humanitarian Response Depot (UNHRD)</li>
+                    </ul>
+                    <h4 class="title-five">2. REGIONAL</h4>
+                    <ul class="lower-latin">
+                        <li>Disaster Emergency Logistics System for ASEAN (DELSA)</li>
+                    </ul>
+                    <p>
+                        <span><a href="http://www.ihp.nu/" title="" target="_blank">International Humanitarian Partnership (IHP)</a></span> is an informal network of governmental organizations that support emergency operations on a daily basis. IHP is a partnership between governmental organizations from Denmark, Estonia, Finland, Germany, Luxembourg, Norway, Sweden and the United Kingdom, and is capable of supporting the United Nations, the European Union and other international organizations. </p>
+                    <p> IHP members provide standardized modules – from small Information Communication Technology (ICT) and Information Management (IM) modules to large base camps and humanitarian compounds – to support humanitarian responders during emergency response. IHP modules have been deployed to most recent major disasters in Asia-Pacific (Figure 17). </p>
+                </section>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> IHP is primarily for UN agencies and UNDAC teams, but it can also be requested by the RCRC Movement, regional organizations and Governments. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> IHP can be accessed through the IHP Secretariat in Geneva, Switzerland at +41 22 917 1600 or through OCHA-ROAP at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. </p>
+                <p>
+                    <span><a href="https://unhrd.org/" title="" target="_blank">UN Humanitarian Response Depot (UNHRD)</a></span> network supports the strategic stockpiling efforts of UN agencies, donors, regional institutions and other humanitarian organizations to respond to emergencies. The UNHRD in Asia and the Pacific is located in Subang, Malaysia and is managed by WFP. It forms part of a global network of UNHRD hubs. </p>
+                <p> There are currently 14 users of the Subang UNHRD facility: ASEAN, AusAID, CARE, Irish Aid, MERCY Malaysia, OCHA, Save the Children, Swiss Red Cross, Shelterbox, UNDP, USAID, WFP, WHO and World Vision International. In addition, UNHRD keeps “white” (i.e. without logo) stocks from suppliers that can be purchased if needed. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Items from the UNHRD network can be requested for dispatch by the UN RC or HC, or by UN agencies, other international organizations, Governments and NGOs that have signed a technical agreement with UNHRD. Partners can also borrow stocks from other stock owners. For more information, contact wfp.subang@wfp.org </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> UNHRD Subang holds strategic reserves of emergency non-food relief goods, including family and hygiene kits, shelter items, IT equipment and other materials designed to assist the emergency response. A UNHRD shipment is normally dispatched within two to three days following a confirmed request. Warehousing, storage, and inspection and handling of relief items are free of charge to users for a period of maximum two years. UNHRD also provides additional services at cost, such as procurement, transport, technical assistance, insurance, repackaging and kitting. UNHRD Subang can be reached at +603-7846 0473 / 0918 / 0917 or through email at <a href="mailto:UNHRD.customerservice@wfp.org">UNHRD.customerservice@wfp.org</a>. </p>
+                <p>
+                    <span><a href="https://ahacentre.org/" title="" target="_blank">Disaster Emergency Logistics System for ASEAN (DELSA)</a></span> is ASEAN’s regional emergency relief stockpile. The DELSA facility is located in Subang, Malaysia and can be used to provide relief items to affected Member States during emergencies. The ASEAN stockpile can also support a disaster-affected NDMO through the provision of pre-fabricated offices, generators and emergency telecommunications. It is managed by the AHA Centre. In addition to the regional stockpile in Subang, the AHA Centre plans to establish satellite warehouses in other ASEAN countries. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>ASEAN Member States.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>ASEAN Member States can request relief items from DELSA through the AHA Centre in Jakarta, Indonesia.</p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 17. Recent IHP Module Support in Asia-Pacific</figcaption>
+                    <img src="images/figure/fig-17.png" alt="">
+                </figure>
+                <section class="section-note">
+                    <h4>REMEMBER</h4>
+                    <ol>
+                        <li>Disaster-affected States should develop detailed preparedness plans so that they know the number and types of USAR and other technical response teams that they are likely to accept in a disaster situation.</li><br>
+                        <li>Disaster-affected States are encouraged to work with international technical entities to agree on the composition, terms of reference and period of activation of technical teams.</li><br>
+                        <li>In addition to the teams described here, some global clusters have rapid response teams composed of regionally based experts, such as child protection and Gender- based Violence (GBV) advisors, that can be deployed rapidly.</li>
+                    </ol>
+                </section>
+                <section id="sec5C">
+                    <h3 class="title-second">C.STANDBY AND SURGE ROSTERS</h3>
+                    <h4 class="title-five">1. INTER-AGENCY</h4>
+                    <ul class="lower-latin">
+                        <li>OCHA Emergency Surge Mechanisms</li>
+                        <li>Inter-Agency Rapid Response Mechanism (IARRM)</li>
+                        <li>Cluster-based Surge Mechanisms</li>
+                        <li>Technical Expert Surge Mechanisms</li>
+                    </ul>
+                    <h4 class="title-five">2. NGO</h4>
+                    <ul class="lower-latin">
+                        <li>RedR</li>
+                        <li>START Response</li>
+                    </ul>
+                    <h4 class="title-five">3. PRIVATE SECTOR</h4>
+                    <ul class="lower-latin">
+                        <li>Deutsche Post DHL Group’s Disaster Response Team (DRT)</li>
+                    </ul>
+                    <p>
+                        <span><a href="https://www.unocha.org/our-work/coordination/surge-capacity" title="" target="_blank">OCHA Emergency Surge Mechanisms</a></span> are the means by which staff can be rapidly deployed to address critical new or unforeseen humanitarian needs in the field. In OCHA, “surge” means the swift deployment of experienced coordination experts and other specialized humanitarian personnel. Surge capacity is used when there are unforeseen emergencies and disasters, when a crisis deteriorates, or when a force majeure affects an office. </p>
+                    <p> OCHA mobilizes surge staff from regional offices and from surge mechanisms managed by OCHA’s Response Services Section (RSS) within the Emergency Response Support Branch (ERSB) in Geneva, Switzerland. These mechanisms are the Emergency Response Roster (ERR) and the Associates Surge Pool (ASP). </p>
+                    <p> The <strong>Emergency Response Roster (ERR)</strong> comprises 45 OCHA staff enrolled in the ERR for deployment, usually for six weeks, at short notice. For a L3 emergency, staff can be deployed for up to three months. </p>
+                    <p> The <strong>Roaming Emergency Surge Officer (RESO)</strong> are senior staff who can deploy at short notice to fill management and senior coordination capability gaps. A RESO may also be called upon to carry out ‘reconnaissance’ missions in emergencies to a) assist in determining OCHA’s footprint, b) advise on additional surge deployment needs, and c) advise on staff continuity planning and associated operational requirements. RESO deployment durations are needs- based and range from a few weeks to several months. </p>
+                    <p> The <strong>Associate Surge Pool (ASP)</strong> covers needs following the departure of surge staff and the arrival of regularly recruited staff. It also addresses critical mid-term staffing gaps. The ASP is composed of experienced humanitarian workers pre-cleared to deploy on a Temporary Appointment. Contracting and deployment take an average of three to four weeks. Deployment duration is usually three to six months with the possibility to extend up to 364 days. </p>
+                    <p>
+                        <strong>Stand-by Partnerships (SBP)</strong> are the agreements OCHA has with 14 partner organizations to provide short-term staffing as ‘gratis personnel’ to meet emergency human resource gaps. Partners maintain their own rosters of trained and experienced humanitarian professionals, many of whom have prior OCHA or other humanitarian experience. SBP staff can usually be deployed within four weeks from receipt of a request, for a period of up to six months. </p>
+                </section>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>These mechanisms support OCHA’s emergency response.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> OCHA offices contact the roster managers through internal channels. More information can be requested from OCHA ROAP at <a href="mailto:ocha-roap@un.org"> ocha-roap@un.org</a>
+                </p>
+                <p>
+                    <span><a href="https://interagencystandingcommittee.org/" title="" target="_blank">Inter-Agency Rapid Response Mechanism (IARRM)</a></span> is a commitment made by IASC member agencies to maintain a roster of senior and experienced staff that can be deployed in the event of a major emergency. These staff can support the HCT in defining and implementing the humanitarian response. The IARRM is not a stand-alone team, but a composite of the individual rapid response capacities of participating agencies. </p>
+                <p> When required, the <strong>Emergency Directors Group (EDG)</strong> makes a set of shared recommendations to the IASC Principals concerning the composition of the IARRM deployment based on the context of the response, including rapid/slow onset and protracted situations; the existing capacity on the ground; and related logistical and access considerations. The EDG’s recommendations aim to find the most practical deployment solution for the response requirements based on information available at the time. The participating agencies then fill the identified positions through their own surge mechanisms. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> IARRM staff work under their individual organizations, and consequently, under the direction of the HC. They help the HCT deliver an effective international response that meets the actual needs of the affected population within the overall framework of the national response. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Deployment of the IARRM is decided by the IASC Principals, who meet within 48 hours of the onset of an L3 emergency, and is based on the recommendation of the IASC Emergency Directors. All IASC members have committed to place emergency roster members on standby at the announcement of the planned meeting of the IASC Principals. More information can be requested from OCHA ROAP at <a href="mailto:ocha-roap@un.org"> ocha-roap@un.org</a> or found at <a href="https://interagencystandingcommittee.org/iasc-transformative-agenda" target="_blank">interagencystandingcommittee.org/iasc-transformative-agenda</a>. </p>
+                <p>
+                    <span>Cluster-based surge mechanisms</span> provide important technical standby and surge capacities to humanitarian organizations from the onset of an emergency. They are managed by some cluster lead agencies. For example, two WFP-managed common service clusters are the Emergency Telecommunications Cluster and the Logistics Cluster. </p>
+                <p> The <strong><a href="https://www.etcluster.org/" title="" target="_blank">Emergency Telecommunications Cluster (ETC)</a></strong> is a global network of organizations that work together to provide shared communications services in humanitarian emergencies. Within 48 hours of a disaster, the ETC provides vital security communications services,and voice and internet connectivity to assist the humanitarian response. This may include provision of services to affected people when required. </p>
+                <p> The <strong><a href="https://www.logcluster.org/" title="" target="_blank">Logistics Cluster</a></strong> response teams provide logistics coordination for humanitarian organizations in an emergency. They ensure appropriate logistics information management and if needed, define a logistics strategy for the response. By coordinating the humanitarian community’s access to common logistics services, relief items can reach affected people more efficiently. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Humanitarian organizations can utilize the in-country telecommunications and logistics support offered by the WFP-led global clusters. Representatives from aid organizations interested in participating in ICT or logistics coordination and information sharing can attend local working group meetings. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Information about both clusters is available through the WFP Regional Office at wfp. <a href="mailto:bangkokk@wfp.org">bangkokk@wfp.org</a> or through cluster websites: Emergency Telecommunications Cluster <a href="https://www.etcluster.org/" target="_blank">www.etcluster.org</a> and Logistics cluster <a href="https://logcluster.org/" target="_blank">www.logcluster.org</a>
+                </p>
+                <p>
+                    <span><a href="https://norcapweb.no" title="" target="_blank">Technical Expert Surge Mechanisms</a></span> managed by the Norwegian Refugee Council’s expert deployment capacity, NORCAP, provide personnel with experience, skills, and senior expertise. In total, NORCAP has a pool of more than 1,000 professionals who meet the changing demands of a wide range of partners, contexts and crises. </p>
+                <p> Since establishing the roster in 1991, NORCAP’s main focus has been developing and strengthening crisis response. NORCAP provides a range of expertise. These include protection, coordination, education, health and nutrition, communication with affected populations, camp management and resilience. NORCAP, in cooperation with partners, covers the following thematic areas through specialized projects: </p>
+                <p> The <strong>Protection Standby Capacity Roster (ProCap)</strong> consists of senior protection specialists who are recruited and deployed by NORCAP to field, regional and global operations, thereby, strengthening the humanitarian protection response. ProCap advisers also train mid-level protection staff from standby partners and UN agencies. ProCap is an inter-agency initiative created in 2005 and led by OCHA. </p>
+                <p> The <strong>Gender Standby Capacity Roster (GenCap)</strong> deploys senior gender experts who work with multiple agencies simultaneously to enhance their capacity to undertake and promote gender equality programming. GenCap is also a UN inter-agency project led by OCHA. </p>
+                <p> The <strong>Cash and Markets Capacity Development Roster (CashCap)</strong> deploys specialists to increase the use and effectiveness of cash programming in humanitarian aid. It is governed by a steering committee of UN and NGO members. </p>
+                <p> The <strong>Assessment Capacities Project (ACAPS)</strong> provides accessible assessment expertise, timely data and analysis to inform decision-making by national Governments and HCTs. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> NORCAP, ProCap, GenCap, CashCap and ACAPS experts are usually deployed as a resource for HCTs and in support of the HC. They are often hosted by UNHCR, UNICEF, OHCHR, OCHA and/or other agencies. ACAPS’ assessment expertise can also be deployed to support national Governments. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> NORCAP, ProCap, GenCap, CashCap and ACAPS are managed by the Norwegian Refugee Council’s (NRC) expert deployment capacity, NORCAP. For more information: <a href="https://www.nrc.no/" target="_blank">www.nrc.no</a>
+                </p>
+                <p>
+                    <span><a href="http://www.redr.org/" title="" target="_blank">RedR</a></span> is an international NGO that provides a roster of skilled professionals who can respond to major global emergencies. These professionals come from standby partnership arrangements with many UN agencies and other front-line relief agencies. During emergencies, these staff can be used to provide additional resources and support to humanitarian response efforts. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Standby rosters enable UN agencies, international NGOs and Governments to access RedR trained experts in a humanitarian crisis. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> For more information visit: <a href="http://www.redr.org/" target="_blank">www.redr.org</a> To find out more about RedR standby rosters, contact a RedR member organisation directly. RedR member organisations in Asia and the Pacific are RedR Australia, RedR India, RedR Lanka, RedR Malaysia and RedR New Zealand. </p>
+                <p>
+                    <span><a href="https://startnetwork.org/" title="" target="_blank">START Response</a></span> is a mechanism managed by the START Network to utilize the collective knowledge and capacities of Start Network members and increase the efficiency of humanitarian responses by leveraging local knowledge, increasing the speed of decision making and reducing administrative costs. Within the START Network’s Asia Regional Platform, a regional shared roster called Go Team Asia has been established to draw on skills and resources from across the sector. The shared roster provides surge capacity to seven humanitarian INGOs <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="ActionAid, CARE, Christian Aid, Islamic Relief, Muslim Aid, Plan International, Save the Children.">3</button> for disaster responses in ten countries <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="Afghanistan, Bangladesh, Cambodia, India, Indonesia, Myanmar, Nepal, Pakistan, Philippines, Sri Lanka.">4</button> in Asia. The roster members are skilled and experienced staff at mid- or senior level who are currently working for any of the seven participating organisations, and who have received an innovative surge training prior to deployment. Skill areas include: Logistics and Supply Chain, Cash Programming, Gender Equality and Inclusion, Child Protection, Age and Disability, Inclusion, Food Security and Livelihoods, Water, Sanitation and Hygiene, Monitoring, Evaluation, Accountability and Learning. Deployment support from this roster is available within 72 hours for four to 12-week deployments. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The Go Team Asia shared roster supports INGO members of the START Network. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> To find out more about START Network and its roster, please contact <a href="mailto:startresponse@startnetwork.org">startresponse@startnetwork.org</a> or visit <a href="https://startnetwork.org" target="_blank">startnetwork.org</a>
+                </p>
+                <p>
+                    <span><a href="https://www.dpdhl.com/en/responsibility/corporate_citizenship/disaster_management/disaster_response_drt.html" title="" target="_blank">Deutsche Post DHL Group’s Disaster Response Team</a></span> is a global network of Disaster Response Teams (DRT) consisting of over 400 specially trained volunteers. The role of the DRT is to prevent airports from getting congested as a result of the sudden surge in incoming cargo. They also take charge of the incoming relief and are then responsible for inventorying, categorizing, warehousing, and remitting incoming goods to the respective consignees. The DRT has also committed to setting up an RDC facility at designated points in the country where a natural disaster has occurred. When called up for logistics support, DRTs can be on the ground and operational at a disaster-site airport within 72 hours, depending on the location. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Deutsche Post DHL Group’s DRTs can be deployed to support local and international NGOs, UN organisations and the affected Governments. These DRTs work primarily at airports designated to receive humanitarian aid. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Deployments are based on bilateral memorandum of understanding (MOU), which facilitate and significantly accelerate any disaster-related deployments to the affected countries. For more information, visit <a href="https://www.dpdhl.com/en.html" target="_blank">www.dpdhl.com</a>
+                </p>
+                <section id="sec5D">
+                    <h3 class="title-second">D. INFORMATION MANAGEMENT</h3>
+                    <p> Managing information following a disaster is a crucial part of any humanitarian response. Strong information management requires agreed processes and trained personnel to collect, analyse and share information about a disaster situation. Affected people, affected Governments, humanitarian organizations and the media are all sources and users of information in an emergency. </p>
+                    <p> Governments have their own mechanisms for sharing and managing information between emergency response-related agencies and ministries. This section explains how the international humanitarian community manages information in an emergency so that Governments better understand how Governments and international organizations can work together and share information. </p>
+                    <h4 class="title-five">1. INFORMATION MANAGEMENT SERVICES AND PRODUCTS</h4>
+                    <ul class="lower-latin">
+                        <li>OCHA Information Management Units (IMU)</li>
+                        <li>Humanitarian Reporting</li>
+                    </ul>
+                    <h4 class="title-five">2. HUMANITARIAN WEBSITES</h4>
+                    <ul class="lower-latin">
+                        <li>ReliefWeb</li>
+                        <li>HumanitarianResponse.info</li>
+                        <li>Financial Tracking Service (FTS)</li>
+                        <li>Humanitarian Data Exchange (HDX)</li>
+                        <li>Humanitarian ID</li>
+                        <li>ASEAN Disaster Information Network (ADInet)</li>
+                        <li>ASEAN Science-based Disaster Management Platform (ASDMP)</li>
+                        <li>South Asian Disaster Knowledge Network (SADKN)</li>
+                        <li>Pacific Disaster Net (PDN)</li>
+                    </ul>
+                    <h4 class="title-five">3. SATELLITE IMAGERY AND MAPPING CAPACITIES</h4>
+                    <ul class="lower-latin">
+                        <li>MapAction</li>
+                        <li>iMMAP</li>
+                        <li>UNITAR’s Operational Satellite Applications Programme (UNOSAT)</li>
+                        <li>UN Platform for Space-based Information for Disaster Management and Emergency Response (UN-SPIDER)</li>
+                        <li>Sentinel Asia</li>
+                        <li>International Charter for Space and Major Disasters</li>
+                    </ul>
+                    <h4 class="title-five">4. ASSESSMENT TOOLS</h4>
+                    <ul class="lower-latin">
+                        <li>Multi-Cluster Initial Rapid Assessment (MIRA)</li>
+                        <li>Post-Disaster Needs Assessment (PDNA)</li>
+                        <li>KoBo Toolbox</li>
+                        <li>Flash Environmental Assessment Tool (FEAT)</li>
+                    </ul><br><br>
+                </section>
+                <h3 class="title-blue">1. INFORMATION MANAGEMENT SERVICES AND PRODUCTS</h3>
+                <p>
+                    <span>OCHA Information Management Unit (OCHA-IMU)</span> provides dedicated information management in countries where there is an ongoing emergency response. This includes technical staff who serve the humanitarian community by developing and promoting common standards that enable data exchange between organizations. They consolidate information to provide an overview of the humanitarian response. They also provide technical support to initiatives, such as needs assessments, and publish information products, such as contacts lists, meeting schedules and maps. The OCHA-IMU works through the Cluster Approach and in close collaboration with information management focal points in Government. To facilitate the exchange of data, an Information Management Working Group is often formed that includes IM staff from OCHA, key Government agencies (NDMO, National Statistics Agency, etc.) and cluster lead agencies. If there is no OCHA in the country, information management support is available through OCHA regional offices. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The OCHA-IMU is for Governments and humanitarian organizations. Information Management capacity in the cluster lead agencies supports cluster members and line ministries. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> OCHA-IMU can be accessed in-country through OCHA and/or by contacting <a href="mailto:ochareporting@un.org">ochareporting@un.org</a> or <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>
+                </p>
+                <section class="section-note">
+                    <h4>REMEMBER</h4>
+                    <p> Preparedness in information management is critical to its effectiveness in an emergency.<br> Preparedness measures can include: collecting key baseline data; establishing an information management network that includes NDMOs, national statistics offices, national mapping agencies, OCHA and cluster lead agencies; ensuring that information management is addressed in the contingency plan; and developing a full needs- assessment methodology. </p>
+                </section>
+                <p>
+                    <span>Humanitarian Reporting</span> includes several standard products developed and published by OCHA, the RC or RC/HC, and/or the HCT. These allow humanitarian partners to share important information and as a result, support operational decision-making by and among humanitarian partners. The standard products include: </p>
+                <p> A <strong>Flash Update</strong> is issued within hours of a sudden onset crisis. It is a short summary of whatever information is available and can lead to the production of a Situation Report. </p>
+                <p> A <strong>Situation Report</strong> is an operational document that provides a snapshot of current needs, response efforts and gaps in an emergency. They can be produced by the RC or OCHA. The RC’s Situation Report is primarily used if there is no OCHA presence. Both the OCHA and RC Situation Reports use the same template. </p>
+                <p> Other information products developed during a response include humanitarian snapshots (infographics that focus on a specific issue or area of the response), humanitarian dashboards that support monitoring of the response, as well as press releases, statements by senior officials and donor briefings, among others. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The audience for humanitarian reporting includes operational humanitarian actors working inside and outside the affected country, as well as donors, Governments, civil-society organizations, the media and the public. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Humanitarian reporting products are publicly accessible on ReliefWeb at <a href="https://reliefweb.int/" target="_blank">www.reliefweb.int.</a> Interested actors may also subscribe to receive Situation Reports issued by OCHA globally. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 18. Information Management Flow</figcaption>
+                    <img src="images/figure/fig-18.png" alt="">
+                </figure>
+                <h4 class="title-blue">2. HUMANITARIAN WEBSITES</h4>
+                <p>
+                    <span><a href="https://reliefweb.int/" title="" target="_blank">ReliefWeb</a></span> is the leading humanitarian information source on global crises and disasters. It is a specialized digital service of OCHA, and teams in Bangkok, Nairobi and New York update information around the clock. ReliefWeb’s editorial teams monitor and collect information from more than 4,000 key sources, including international and local humanitarian agencies, Governments, think tanks, research institutions and the media. ReliefWeb is also a valuable resource for job listings and training programs. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> ReliefWeb provides reliable and timely information to humanitarian workers and enables them to make informed decisions and to plan effective responses. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> ReliefWeb can be accessed on social media networks such as Facebook and Twitter, on mobile applications and its application programming interface (API), and at <a href="https://reliefweb.int/" target="_blank">reliefweb.int</a>
+                </p>
+                <p>
+                    <span><a href="https://www.humanitarianresponse.info/" title="" target="_blank">HumanitarianResponse.info</a></span> is a humanitarian web-based platform that supports inter- cluster coordination and information management of operational data. It is where the in- country response community can share, find, and collaborate on information that informs strategic decisions. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> HumanitarianResponse.info is a resource specifically tailored to the needs of persons deployed to respond to humanitarian emergencies. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>HumanitarianResponse.info is publicly accessible at <a href="https://www.humanitarianresponse.info/" target="_blank">www.humanitarianresponse.info</a></p>
+                <p>
+                    <span><a href="https://fts.unocha.org/" title="" target="_blank">Financial Tracking Service (FTS)</a></span> is a global database maintained by OCHA that records humanitarian contributions (cash and in-kind) to emergencies. The FTS is a real-time, searchable database that includes all reported international humanitarian aid, with a special focus on inter-agency humanitarian response plans (HRPs). FTS can only record contributions that are reported to it by donors and recipient entities. Contribution reports are triangulated with reports from recipient agencies to show how contributions are used (i.e. whether they have been committed to a specific HRP, Flash Appeal or other appeal). </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> FTS is open to all Governments, private donors, funds, recipient agencies and implementing organizations wishing to report financial pledges and contributions for humanitarian action. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Donors, affected Governments and recipient organizations can report contributions to <a href="mailto:fts@un.org">fts@un.org</a> or through an online reporting form available on the FTS website. FTS is publicly accessible at <a href="https://fts.unocha.org/" target="_blank">fts.unocha.org</a>
+                </p>
+                <p>
+                    <span><a href="https://data.humdata.org" title="" target="_blank">Humanitarian Data Exchange (HDX)</a></span> is an open platform for sharing data. The goal of HDX is to make humanitarian data easy to find and use for analysis. HDX’s collection of datasets has been accessed by users in over 200 countries and territories. The HDX is managed by a team within OCHA. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> HDX makes data publicly available for humanitarian responders. Data can be in a variety of formats, including Excel spreadsheets and graphic information systems (GIS) compatible formats. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p><a href="https://data.humdata.org" title="" target="_blank">HDX is publicly accessible at data.humdata.org</a></p>
+                <p>
+                    <span><a href="https://humanitarian.id/" title="" target="_blank">Humanitarian ID</a></span> is an online tool for managing contacts in an emergency. Humanitarian responders sign up to Humanitarian ID then ‘check in’ to the emergency response allowing responders to find key contacts during a disaster in a specific country. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>Humanitarian ID is a tool for humanitarian responders to find each other and coordinate.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>
+                    <a href="https://about.humanitarian.id" title="" target="_blank">Humanitarian ID is publicly available at humanitarian.id.</a> It is also available as a mobile phone app for Android and iOS devices. In highly insecure environments, contacts may only be visible to users who have been verified by the list managers. </p>
+                <p>
+                    <span><a href="http://adinet.ahacentre.org" title="" target="_blank">ASEAN Disaster Info Network (ADInet)</a></span> is a disaster web portal and database system for ASEAN managed by the AHA Centre. It offers a consolidated collection of information on disasters in the sub-region. Disaster reports submitted by NDMOs and the general public are verified and updated by AHA Centre. Based on the information collated in ADInet, AHA Centre releases a Weekly Disaster Update and Monthly Disaster Outlook. As a knowledge management repository, AHA Centre’s Flash Updates and Situation Updates are available on the relevant disaster page in ADInet. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> It is primarily intended for researchers, scientists, disaster management practitioners and policy makers whose work focus on disaster management in ASEAN region. It is publicly accessible. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p><a href="http://adinet.ahacentre.org" title="" target="_blank">ADInet is accessed at adinet.ahacentre.org</a></p>
+                <p>
+                    <span><a href="http://asdmp.ahacentre.org/" title="" target="_blank">ASEAN Science-based Disaster Management Platform (ASDMP)</a></span> is a web portal and database system developed to provide a platform to connect researchers and scientists with disaster management practitioners and policy makers. This website is an information repository and knowledge outreach platform. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> It is primarily intended for researchers, scientists, disaster management practitioners and policy makers whose work focus on disaster management in ASEAN region. It is publicly accessible. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p><a href="http://asdmp.ahacentre.org/" title="" target="_blank">ASDMP is accessed at asdmp.ahacentre.org/ASDMP/index.do</a></p>
+                <p>
+                    <span><a href="https://www.saarc-sadkn.org/about.aspx" title="" target="_blank">South Asian Disaster Knowledge Network (SADKN)</a></span> is a web portal for the sharing of knowledge and information on disaster risk management in South Asia. SADKN is a network of networks, with one regional and eight national portals. It includes all national stakeholders from the SAARC Member States. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>SADKN is for SAARC Member States, but it is publicly accessible.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>SADKN is accessed through the SAARC DMC website at <a href="http://www.saarc-sadkn.org/" target="_blank"> www.saarc-sadkn.org</a></p>
+                <p>
+                    <span>Pacific Disaster Net (PDN)</span> is a disaster web portal and database system for Pacific Island countries. It provides information on governance, risk assessment, early warning and monitoring, disaster risk management and training. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>PDN is for Pacific Island countries, but it is publicly accessible.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>PDN is accessed through the Secretariat of the Pacific Community (SPC) at <a href="mailto:info@sopac.org">info@sopac.org</a></p><br><br>
+                <h4 class="title-blue">3. SATELLITE IMAGERY AND MAPPING CAPACITIES</h4>
+                <p> Satellite imagery can be a powerful tool for analysing the effects of a disaster quickly and over a large area. Mapping is an effective means of analysing and sharing information about the effects of an emergency. Many organizations, including OCHA, can map data using satellite imagery. </p>
+                <p>
+                    <span><a href="https://mapaction.org/" title="" target="_blank">Map Action</a></span> is a mapping charity that deploys highly qualified mapping volunteers to support disaster response. Volunteers are usually GIS specialists with data management expertise and/or technical and software specialists. They can mobilize and deploy within the first 72 hours of a response, or they can fulfill specific pieces of work related to data management or mapping. They often deploy as part of an UNDAC team or with Government, regional, INGO or NGO partners. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Mapping services support a humanitarian response. MapAction normally works in close collaboration with OCHA and Government counterparts. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> MapAction support can be requested through OCHA or direct contact at <a href="mailto:emumford@mapaction.org">emumford@mapaction.org</a> or <a href="mailto:info@mapaction.org">info@mapaction.org</a> For more information: <a href="https://mapaction.org/" target="_blank">www.mapaction.org</a>
+                </p>
+                <p>
+                    <span><a href="https://immap.org/" title="" target="_blank">iMMAP</a></span> is a mapping organization that provides information management services, including data collection, data analysis, assessments, database management, infographics and mapping, tool development, training, consultation, sector expertise, coordination and change management. iMMAP offers partners the full spectrum of information, knowledge and change management skills linked with thematic knowledge, e.g. food security, health, coordination, development, disaster risk reduction, humanitarian mine action, security, climate change, urban, agriculture, and much more. iMMAP provides additional capacity to both humanitarian and development organizations, helping them to solve operational and strategic challenges. iMMAP also partners with organizations to provide cost-efficient and more effective service delivery and decision-making, which ultimately leads to improved outcomes for populations. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> iMMAP provides bilateral and multilateral support to the UN, NGOs and Governments to improve humanitarian information collection, data management and spatial analysis. iMMAP’s services are available on a project basis, as both individual activities and on-going collaborations, through iMMAP-implemented projects and through the secondment of information management staff. Since 2012, iMMAP has been an official Standby Partner (SBP) to the United Nations, providing support to multiple UN agencies in multiple countries. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> For iMMAP’s services, please contact William Barron, CEO, at <a href="mailto:wbarron@immap.org">wbarron@immap.org</a> and Craig von Hagen, the Regional Director, at <a href="mailto:cvonhagen@immap.org">cvonhagen@immap.org</a>. </p>
+                <p>
+                    <span><a href="https://www.unitar.org/unosat/" title="" target="_blank">UNITAR’s Operational Satellite Applications Programme (UNOSAT)</a></span> delivers imagery analysis and satellite solutions to UN and non-UN humanitarian organizations. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>UNOSAT is available to UN and non-UN humanitarian organizations and Governments.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>UNOSAT is accessed at <a href="https://unitar.org/unosat/" target="_blank">www.unitar.org/unosat</a></p>
+                <p>
+                    <span><a href="http://www.un-spider.org/" title="" target="_blank">UN Platform for Space-based Information for Disaster Management and Emergency Response (UN-SPIDER)</a></span> connects disaster management and space communities, and assists Governments in using space-based information for disaster preparedness. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> UN-SPIDER is available to national Governments with space agencies and disaster management agencies in charge of response operations. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>UN-SPIDER is accessed at <a href="http://www.un-spider.org/" title="" target="_blank">www.un-spider.org</a></p>
+                <p>
+                    <span><a href="https://www.aprsaf.org/initiatives/sentinel_asia/" title="" target="_blank">Sentinel Asia</a></span> supports disaster management activities by applying GIS technology and space-based information. It is hosted by the Asia-Pacific Regional Space Agency Forum (APRSAF). </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Sentinel Asia is available to national Governments, UN disaster management agencies and regional and international organizations. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>Sentinel Asia is accessed at <a href="http://www.aprsaf.org/initiatives/sentinel_asia/" target="_blank">www.aprsaf.org/initiatives/sentinel_asia</a></p>
+                <p>
+                    <span><a href="https://disasterscharter.org/web/guest/activating-the-charter" title="" target="_blank">International Charter for Space and Major Disasters</a></span> is a consortium of national space agencies. It provides authorized users with a unified system of space data acquisition and delivery. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The International Charter for Space and Major Disasters is available to authorized users such as representatives of national civil protection, rescue, defence and security bodies as well as the United Nations Office for Outer Space (UN OOSA) and UNITAR/UNOSAT on behalf of UN agencies. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>
+                    <a href="https://disasterscharter.org/web/guest/activating-the-charter" title="" target="_blank">International Charter for Space and Major Disasters is accessed at disasterscharter.org/web/ guest/activating-the-charter</a>
+                </p><br><br>
+                <h4 class="title-blue">4. ASSESSMENT TOOLS</h4>
+                <p>
+                    <span><a href="https://www.humanitarianresponse.info/en/programme-cycle/space/document/multi-sector-initial-rapid-assessment-guidance-revision-july-2015" title="" target="_blank">Multi-Cluster Initial Rapid Assessment (MIRA)</a></span> is a methodology carried out by key humanitarian stakeholders during the first two weeks following a sudden-onset disaster. It tests planning assumptions that have been made in the first 72 hours (based on secondary data analysis, for example). At the second or third week of a sudden-onset response, the MIRA provides information on the needs of affected people and the priorities for international support. MIRA is guided by the 2013 IASC Operational Guidance on Coordinated Assessments in Humanitarian Crises. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>MIRA is primarily used by HCT to support affected Governments.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p>Information on MIRA is available in-country through OCHA, the HC or the UN RC.</p>
+                <p>
+                    <span><a href="https://www.undp.org/content/undp/en/home/climate-and-disaster-resilience/disaster-recovery/post-disaster-needs-assessments.html" title="" target="_blank">Post-Disaster Needs Assessment (PDNA)</a></span> is a Government-led assessment exercise. A PDNA complements rather than duplicates initial rapid assessments conducted by humanitarian actors. It analyses these assessments to obtain recovery-related data. The Disaster Recovery Framework (DRF) is the principal output of the assessment. It is a single consolidated report that provides information on the physical impacts of a disaster; the economic cost of damage and loss; the human impacts as experienced by affected people; and the resulting early and long-term recovery needs and priorities. It provides a basis for the prioritization, design and implementation of a coherent set of recovery programmes. </p>
+                <p> There are various stages and procedures necessary for a PDNA. In addition to the assessment, a PDNA includes a planning mission, an orientation meeting with all stakeholders, and sectoral training and orientation. The PDNA is supported by UNDP, the European Commission, and the World Bank, as well as other national and international actors. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p>PDNA is for affected Governments.</p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Information about PDNA and DRF can be accessed through the World Bank’s Global Facility for Disaster Risk Reduction (GFDRR), UNDP and ECHO. </p>
+                <p>
+                    <span><a href="https://www.kobotoolbox.org/" title="" target="_blank">KoBo Toolbox</a></span> is a free open-source tool for mobile data collection. It allows users to collect data in the field using electronic devices. KoBo Toolbox supports the full data collection cycle - form design, data collection and analysis. Most users are people working in humanitarian crises or aid professionals and researchers working in developing countries. Its capacity to support the needs assessments, monitoring and other data collection activities for humanitarian actors in emergencies and difficult field environments continues to improve. The adaptation of KoBo Toolbox for humanitarian use is a joint initiative between OCHA and the Harvard Humanitarian Initiative (HHI). </p>
+                <p> The platform provides a simple and intuitive interface to develop forms, including complex skipping logic, validation, and common humanitarian question formats. The form builder also supports a unique question library feature that enables users to develop and share libraries of validated and standardized questions. </p>
+                <p> By making the sharing of data, questions and forms easier, users can work more quickly and effectively, and there is a greater adoption of standard indicators and questions, less fragmentation (which occurs if every agency uses a different incompatible system), and improved comparability between data sets. This allows better comparisons across time and across countries, so the entire humanitarian community, including donors, UN agencies and implementing partners benefit. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Humanitarian actors can create free accounts on the dedicated OCHA server. Organizations can also install it on their own servers and directly contribute to its further development. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> To create an account for unlimited use and benefit from professional user support, go to <a href="http://training.kobotoolbox.org/" title="" target="_blank">kobo.humanitarianresponse.info</a>
+                </p>
+                <p> To access the free Online Humanitarian Needs Assessment Training, including Kobo toolbox, go to training.kobotoolbox.org. For more information, visit <a href="https://www.kobotoolbox.org/" target="_blank">www.kobotoolbox.org</a>
+                </p>
+                <p>
+                    <span><a href="https://www.eecentre.org/feat/" title="" target="_blank">Flash Environmental Assessment Tool (FEAT)</a></span> helps to identify existing or potential acute environmental impacts that pose risks for humans, human life-support functions and ecosystems, following sudden-onset natural disasters. FEAT focuses primarily on immediate and acute impacts arising from released hazardous chemicals. It was produced by the UN Environment/OCHA Joint Unit with the support of the National Institute for Public Health and the Environment of the Netherlands. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The FEAT was designed for UNDAC teams, USAR teams, local authorities, disaster management agencies and environmental specialists. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> The FEAT Pocket Guide, including all FEAT-related tools, can be accessed online through the Environmental Emergencies Centre (EEC) at <a href="https://www.eecentre.org/resources/feat/" target="_blank">www.eecentre.org/feat</a>
+                </p>
+                <section class="section-note">
+                    <h4>REMEMBER</h4>
+                    <p> In addition to the multi-sectoral assessments described here, there are many other cluster-specific and thematic assessment methodologies and tools that can be employed in an emergency. </p>
+                </section>
+                <section id="sec5E">
+                    <h3 class="title-second">E. EMERGENCY RESPONSE PREPAREDNESS</h3>
+                    <p> The term “readiness planning” refers to policy and legal preparedness, emergency response preparedness and other processes that clarify the roles between humanitarian actors. This section looks at the international and regional tools available for legal and emergency response preparedness. </p>
+                    <h4 class="title-five">1. LEGAL PREPAREDNESS</h4>
+                    <ul class="lower-latin">
+                        <li>Guidelines for the Domestic Facilitation and Regulation of International Disaster Relief and Initial Recovery Assistance (IDRL Guidelines)</li>
+                        <li>UN Model Customs Facilitation Agreement</li>
+                    </ul>
+                    <h4 class="title-five"> 2. EMERGENCY RESPONSE PREPAREDNESS PLANNING</h4>
+                    <ul class="lower-latin">
+                        <li>IASC Emergency Response Preparedness (ERP) Guidance</li>
+                        <li>ASEAN Joint Disaster Response Plan (AJDRP)</li>
+                    </ul><br><br>
+                    <h4 class="title-blue">1. LEGAL PREPAREDNESS</h4>
+                    <p>
+                        <span><a href="https://www.ifrc.org/en/what-we-do/idrl/idrl-guidelines/" title="" target="_blank">Guidelines for the domestic facilitation and regulation of international disaster relief and initial recovery assistance (IDRL Guidelines)</a></span> are a set of recommendations to Governments on how to prepare their laws and plans for coordinating and facilitating international disaster relief. Such preparedness planning can include the review and development of disaster management laws, immigration laws, customs laws, quarantine procedures, and civil and criminal liability processes. </p>
+                    <p> The Guidelines are complemented by various reference tools developed by the IFRC, including the <strong>IDRL Checklist; the Model Act</strong> for the Facilitation and Regulation of International Disaster Relief and Initial Recovery Assistance (Model Act); and an emergency decree template. </p>
+                    <p> The <strong>IDRL Checklist</strong> is an easy to use assessment tool that helps a Government to understand what legislation it has and what may be required to strengthen legal preparedness. </p>
+                    <p> The <strong>Model Act</strong> supports national Governments’ legal preparedness for disasters. It helps Governments develop legislation that integrates the IDRL Guidelines into domestic law and policy. Implementing the IDRL Guidelines and the Model Act can contribute towards a timely response during a sudden onset disaster or emergency. </p>
+                    <p> The <strong>emergency decree</strong> template can be used by a Government in times of disaster if there is no pre-existing framework in place for facilitating and regulating international disaster assistance. </p>
+                    <p> The <strong>IFRC’s Disaster Law Programme (DLP)</strong> also helps integrate the IDRL Guidelines at the national level. The DLP supports RCRC National Societies’ work with their respective Governments to develop and apply state-of-the-art disaster-related legislation, policies and procedures, including legal preparedness for international disaster assistance. </p>
+                </section>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Legal preparedness consistent with the IDRL Guidelines and the Model Act are for the Governments of UN Member States. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> The legal-preparedness process is usually initiated by a National Red Cross Red Crescent Society in cooperation with its respective national Government and with support from IFRC. The Model Act is available online through <a href="https://www.ifrc.org/what-we-do/" target="_blank">www.ifrc.org/what-we-do</a>. It is also available through National Societies or IFRC. </p>
+                <section class="section-study">
+                    <h4>CASE STUDY 5. IDRL IN ACTION: THE CASES OF INDONESIA, CAMBODIA AND THE COOK ISLANDS</h4>
+                    <p> Between 2004 and 2006, IFRC and the <strong>Indonesia</strong> Red Cross Society conducted a series of studies in collaboration with the Government to identify the legal issues that had affected international relief operations in that country. Following intensive consultations involving a wide range of stakeholders, the Government adopted a new law on disaster management in 2007. In 2008, the President promulgated Regulation No.23 on the Participation of International Institutions and Foreign Non-Governmental Institutions in Disaster Management, which draws strongly from the IDRL Guidelines. In December 2010, more detailed and specific guidelines were adopted, titled “The Role of International Organizations and Foreign Nongovernment Organizations during Emergency Response”. </p>
+                    <p> Similarly, in 2008, IFRC supported the Government of <strong>Cambodia</strong> and the Cambodia Red Cross Society to undertake an IDRL technical assistance project to analyse the national legal framework for international assistance. Following this review, Cambodia drafted and adopted a new Disaster Management Law in June 2015. The Law, aimed at regulating disaster management in Cambodia, has the three stated goals of: </p>
+                    <ul>
+                        <li>Prevention, adaptation and mitigation of disaster risk in the pre-disaster period</li>
+                        <li>Emergency response during a disaster</li>
+                        <li>Recovery in the post-disaster period</li>
+                    </ul>
+                    <p> The law establishes institutions, assigns them legally-binding roles and responsibilities, and helps ensure resources and mechanisms for coordination are allocated amongst different institutions. Currently, this is one of the most comprehensive disaster management laws in the Asia-Pacific region. </p>
+                    <p> Like Indonesia and Cambodia, the IDRL Guidelines have been utilized to bolster disaster management preparedness in the Pacific. Following the completion of an IDRL study in the <strong>Cook Islands</strong>, the Prime Minister raised the importance of the IDRL Guidelines with leaders of Pacific Island States during the 43rd Pacific Island Forum in August 2012. The Forum Communiqué encourages the Pacific Island States to use the IDRL Guidelines to strengthen their national policy and their institutional and legal frameworks in collaboration with their National Red Cross Societies, IFRC, the UN and other relevant partners. </p>
+                    <p> The IDRL Guidelines have had a significant impact across the Asia-Pacific region. Indonesia, New Zealand and the Philippines have adopted new laws, regulations or procedures at the national level with provisions inspired by, or consistent with, the IDRL Guidelines. In Afghanistan, Cambodia, the Cook Islands, Laos, Nepal, Pakistan, the Philippines, Vanuatu and Viet Nam, legal review processes and/or IDRL studies conducted by IFRC and National Societies have been completed or are underway. For detailed information on the progress of IDRL technical assistance projects in Asia and the Pacific, visit <a href="https://media.ifrc.org/ifrc" target="_blank">www.ifrc.org</a>
+                    </p>
+                </section>
+                <p>
+                    <span><a href="https://www.unocha.org/legacy/what-we-do/coordination-tools/logistics-support/customs-facilitation" title="" target="_blank">UN Model Customs Facilitation Agreement</a></span> is a tool available to UN Member States to expedite the import, export and transit of relief consignments and the possessions of relief personnel in a disaster. The UN Model Customs Agreement contains provisions regarding simplified documentation and inspection procedures; temporary or permanent waiving of duties; taxes on imports of relief items and equipment of relief personnel, UN agencies and accredited NGOs; and arrangements for clearance outside official working hours and locations. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> A UN Model Customs Agreement is signed between a Government and the UN. Bhutan, Nepal and Thailand are the only countries in Asia and the Pacific that have signed a UN Model Customs Agreement. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Information on procedures for signing the agreement can be accessed through the UN RC or HC, or through OCHA-ROAP at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. </p><br><br>
+                <h4 class="title-blue">2. EMERGENCY RESPONSE PREPAREDNESS PLANNING</h4>
+                <p>
+                    <span><a href="https://www.humanitarianresponse.info/en/programme-cycle/space/page/preparedness" title="" target="_blank">IASC Emergency Response Preparedness (ERP) Guidance</a></span> enables the international humanitarian system to apply an operational approach to emergency preparedness. The primary objective of the ERP approach is to optimize the speed and volume of critical assistance delivered immediately after the onset of a humanitarian emergency. The ERP focuses on situations where the scale of the potential emergency requires the concerted action of a number of agencies/organizations. The ERP allows the humanitarian community to quickly state its capacity and the value it can add to national response. </p>
+                <p>The ERP tool supports:</p>
+                <ul>
+                    <li>Risk Analysis by developing a common understanding of disaster or crisis risks and identifying moderate or high risks.</li><br>
+                    <li>Operational Readiness by establishing a minimum level of multi-hazard preparedness to prepare for both slow and sudden-onset crisis and/or disasters.</li><br>
+                    <li>Strategic Planning by designing a response strategy based on the available in-country capacity that can deal with the initial phase of an emergency if moderate or high risks are identified. This includes developing contingency plans for specific risks to meet the differentiated needs of an affected population in the first three to four weeks of a humanitarian emergency.</li><br>
+                    <li>Coordination and Partnerships by outlining how the international humanitarian community can organize itself to support and complement national action.</li>
+                </ul>
+                <p> The <strong>Rapid Response Approach to Disasters in Asia-Pacific (RAPID)</strong> is an Asia-Pacific adaptation of the ERP. It is designed to better support the unique context and challenges in the region, while also ensuring that the approach is flexible enough to be scaled according to specific contexts in line with global guidance. </p>
+                <p> The RAPID approach is made up of four stages, that are mirrored in preparedness and response; <strong>1. Disaster Impact Model, 2. Needs Analysis, 3. Response Capacity Analysis, and 4. Planning and Advocacy</strong> (Figure 19) The RAPID approach: </p>
+                <ul>
+                    <li>Places national response at the forefront and articulating how the international humanitarian community augments Government preparedness and response.</li><br>
+                    <li>Creates linkages between (1) disaster preparedness and response, and (2) the resilience and development agendas, by generating synergy with existing initiatives Governments have committed to, such as the Sustainable Development Goals and the Sendai Framework for Disaster Risk Reduction.</li><br>
+                    <li>Engages affected people in response planning, thereby, improving accountability and better supporting local systems.</li><br>
+                    <li>Uses country-specific risk profiles and vulnerability data to inform more context specific and appropriate responses in support of national efforts.</li>
+                </ul>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The ERP and RAPID approach should be as participatory as possible and should include all those likely to be involved in a response. </p>
+                <p>The approach should be:</p>
+                <ul>
+                    <li>Led by a Resident/Humanitarian Coordinator</li>
+                    <li>Managed by a Humanitarian Country Team or equivalent body</li>
+                    <li>Supported by an inter-cluster/sector coordination group and by the clusters/sectors</li>
+                    <li>Inclusive of a broad range of responders, including at the sub-national level</li>
+                    <li>Supportive of the national authorities, who have primary responsibility for affected people.</li>
+                </ul>
+                <p> To the extent possible, national authorities and other national actors should be engaged with or lead the preparedness planning processes so that there is a common understanding of the risks, vulnerabilities and capacities. Moreover, they can ensure that the efforts of the international humanitarian community feed into emergency preparedness planning. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> More information is available at <a href="https://www.humanitarianresponse.info/en/coordination/" target="_blank">www.humanitarianresponse.info/en/coordination/</a> preparedness and through OCHA-ROAP at <a href="mailto:ocha-roap@un.org">ocha-roap@un.org</a>. </p>
+                <p>
+                    <span><a href="https://ahacentre.org/publication/ajdrp/" title="" target="_blank">ASEAN Joint Disaster Response Plan (AJDRP)</a></span> is a regional preparedness approach that provides a common framework for delivering a timely, at-scale and joint response by mobilizing necessary assets and capacities. The AJDRP clarifies the working arrangements of ASEAN’s mechanisms in strengthening engagement with other sectors and stakeholders as part of the overall ASEAN response to a large-scale disaster in the region. The AJDRP also assists ASEAN Member States and other partners to identify standby resources. These assets, experts and other response capacities may come from the private sector, civil society organizations, or military resources, and constitute the <strong>ASEAN Standby Arrangements.</strong>
+                </p>
+                <p> The <strong>ASEAN Regional Disaster Emergency Response Simulation Exercise (ARDEX)</strong> is conducted every two years by the ACDM to test and validate ASEAN SASOP and ASEAN’s preparedness and readiness in times of disasters. The first ARDEX was held in 2005, and the AHA Centre has co-organized the ARDEX with the host country since 2013. To support planning and conduct of the ARDEX, the AHA Centre has developed an ARDEX Organizer’s Handbook and ARDEX Referees Manual. Since the 2016 ARDEX in Brunei Darussalam, the exercise has also tested ASEAN’s readiness for collective response under the One ASEAN One Response Declaration. </p>
+                <p> ASEAN Member States and partners in disaster response, including military forces, the United Nations, NGOs, international organizations, civil society and the private sector participate in the ARDEX. </p>
+                <p> The <strong>ASEAN Regional Forum Disaster Relief Exercise (ARF DiREx)</strong>‎ is also a large-scale disaster relief exercise that ARF members’ civilian and military authorities hold every two years (opposite years to the ARDEX). It promotes the exchange of expertise and practices in disaster management among ARF members. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The AJDRP is developed for specific scenarios in ASEAN Member States at the highest risk of a large-scale disaster. It is intended to facilitate planning among ASEAN Member States and their disaster response partners, including military forces, UN agencies, international NGOs, civil society and private sector, among others. ASEAN – and ARF – partners are also invited to participate in the ARDEX and ARF-DiREx exercises. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 19. RAPID Approach to Emergency Response Preparedness</figcaption>
+                    <img src="images/figure/fig-19.png" alt="">
+                </figure>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> AJDRP is accessed at ahacentre.org/files/AJDRP.pdf. For more information, contact the AHA Centre at <a href="mailto:info@ahacentre.org">info@ahacentre.org</a> or <a href="mailto:operationroom@ahacentre.org">operationroom@ahacentre.org</a>. </p>
+                <section id="sec5F">
+                    <h3 class="title-second">F. HUMANITARIAN FINANCING MECHANISMS</h3>
+                    <p> When a crisis hits, immediate access to funds to begin coordinated inter-agency response planning and humanitarian operations is critical to save lives and alleviate human suffering. This section describes international and regional multilateral financing and strategic planning tools that can be triggered during the immediate phase of an emergency. In Asia and the Pacific, national humanitarian financing mechanisms, bilateral contributions and private donations are central to rapid disaster response. </p>
+                    <h4 class="title-five">1. INTERNATIONAL FINANCING MECHANISMS</h4>
+                    <ul class="lower-latin">
+                        <li>UN Central Emergency Response Fund (CERF)</li>
+                        <li>Country-Based Pooled Funds (CBPF)</li>
+                        <li>OCHA Emergency cash Grant (ECG)</li>
+                        <li>IFRC Disaster Relief Emergency Fund (DREF)</li>
+                        <li>UN Development Programme (UNDP) TRAC 1.1.3 Category II Resources</li>
+                        <li>Pandemic Emergency Financing Facility</li>
+                        <li>Global Preparedness Partnership (GPP)</li>
+                    </ul>
+                    <h4 class="title-five">2. REGIONAL FINANCING MECHANISMS</h4>
+                    <ul class="lower-latin">
+                        <li>ASEAN Disaster Management and Emergency Relief Fund</li>
+                        <li>Asia-Pacific Disaster Response Fund</li>
+                        <li>South-East Asia Regional Health Emergency Fund</li>
+                    </ul>
+                    <h4 class="title-five">3. STRATEGIC PLANNING TOOLS</h4>
+                    <ul class="lower-latin">
+                        <li>Flash Appeal</li>
+                        <li>Humanitarian Response Plan</li>
+                    </ul>
+                    <h4 class="title-five">4. INTERNATIONAL FINANCING MECHANISMS</h4>
+                    <ul class="lower-latin">
+                        <li>UN Central Emergency Response Fund</li>
+                        <li>Country-Based Pooled Funds</li>
+                        <li>OCHA Emergency Cash Grant</li>
+                        <li>IFRC Disaster Relief Emergency Fund</li>
+                        <li>UNDP TRAC 1.1.3 Category II Resources</li>
+                        <li>World Bank Pandemic Emergency Financing Facility</li>
+                        <li>Global Preparedness Partnership</li>
+                    </ul><br><br>
+                </section>
+                <h4 class="title-blue">1. INTERNATIONAL FINANCING MECHANISMS</h4>
+                <p>
+                    <span><a href="https://cerf.un.org/" title="" target="_blank">UN Central Emergency Response Fund (CERF)</a></span> delivers funding quickly to humanitarian responders and kick-starts life-saving action. The CERF, established in 2006, comprises three components: 1) Rapid Response grants, 2) Underfunded Emergencies grants, and 3) loans. </p>
+                <p> CERF makes funding available when a sudden-onset emergency begins, when an ongoing crisis suddenly deteriorates or when a response to a slow-onset crisis requires time-critical funding. Rapid Response grants can be approved in as little as 48 hours. For the world’s neglected crises, CERF provides support through Underfunded Emergencies grants. These are disbursed twice a year to provide much needed funding for critical life-saving services. The CERF also has a loan facility of US$ 30 million. Loans of up to one year can be made for UN agencies if they can confirm that donor funding is forthcoming. </p>
+                <p> In recognition of the critical need for larger and more strategic humanitarian finance and CERF’s track record of providing life-saving assistance to crisis-affected people, the UN General Assembly has endorsed the call to expand CERF’s annual funding target from $450 million to $1 billion. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> CERF funding is available only to UN agencies, funds and programmes. However, NGOs are important CERF partners and receive CERF funding when they carry out work in partnership with recipient UN organizations. Between 2013 and 2017, countries in the Asia-Pacific region received some US$ 338 million in CERF funding (Figure 21), with major recipient countries in 2016 and 2017 including Afghanistan, Bangladesh, Fiji and the Democratic People’s Republic of Korea (Figure 20). </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> A CERF grant application is coordinated and submitted by the RC or RC/HC on behalf of the country team. After a bilateral agreement is made between the recipient agency(ies) and the CERF secretariat, the allocated funds are disbursed. For more information on CERF, visit cerf.un.org </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 20. Contributions and Allocations from CERF for Asia-Pacific</figcaption>
+                    <img src="images/figure/fig-20.png" alt="">
+                </figure>
+                <p>
+                    <span><a href="https://www.unocha.org/our-work/humanitarian-financing/country-based-pooled-funds-cbpfs/cbpfs-guidelines" title="" target="_blank">Country-Based Pooled Funds (CBPFs)</a></span> are established by the UN ERC when a new emergency occurs or when an existing humanitarian situation deteriorates. They are managed locally by the HC in consultation with the humanitarian community. Contributions – mainly from Governments – are collected into single, unearmarked funds to support local humanitarian efforts. Money is allocated through an inclusive and transparent process in support of priorities set out in coordinated Humanitarian Response Plans (HRPs). This ensures that funding is available and prioritized at the local level by those closest to people in need. </p>
+                <p> CBPFs allocate funding based on identified humanitarian needs and priorities at the country- level in line with the Humanitarian Programme Cycle (HPC). To avoid duplication and ensure a complementary use of the available CBPF funding, other funding sources, including bilateral contributions, are considered. </p>
+                <p> CBPFs help in-country relief organizations to reach the most vulnerable people and use available resources more effectively and efficiently. </p>
+                <figure class="app-wrap-img">
+                    <figcaption class="txt-blue">Figure 21. CERF Allocations to Asia-Pacific (2013-2017) </figcaption>
+                    <img src="images/figure/fig-21.png" alt="">
+                </figure>
+                <ul>
+                    <li><strong>CBPFs are inclusive and promote partnership.</strong> Funds are directly available to a wide range of relief partners. This empowers humanitarian leadership and encourages collaboration and collective ownership of the emergency response.</li><br>
+                    <li><strong>CBPFs are timely and flexible.</strong> They support the delivery of an agile response in fluid emergency situations.</li><br>
+                    <li><strong>CBPFs are efficient and accountable.</strong> They minimize transaction costs and provide transparency and accountability. Recipient organizations are thoroughly assessed; relief projects are monitored with regular reporting on achievement. In the Agenda for Humanity, the UN Secretary-General stressed the critical role of CBPFs, and he called on donors to increase the proportion of humanitarian funding channelled through CBPFs to 15 per cent by 2018. At current levels, that would equal more than $2 billion per year.</li>
+                </ul>
+                <p> In 2017, there were 18 active CBPFs globally, which received a combined total of $824 million and allocated more than $586 million to 614 partners in 18 countries to support 1,130 critical humanitarian projects that provided millions of people with health care, food aid, clean water and sanitation, shelter, and other life-saving assistance. The largest CBPFs operated in Yemen ($95.2 million), Ethiopia ($81.4 million) and Iraq ($71.7 million). Additionally, funds allocated by several CBPFs in support of people affected by the Syria crisis totalled $79.1 million and represents allocations in Jordan ($8.5 million), Lebanon ($5.7 million), Syria ($23.8 million) and Turkey ($41.1 million). In Asia and the Pacific, CBPFs are operational in Afghanistan, Myanmar and Pakistan. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> Funding from CBPFs is directly available to UN agencies, national and international NGOs and Red Cross and Red Crescent organizations. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> CBPFs are locally managed by the OCHA Country Office under the leadership of the HC. An advisory board oversees the management of CBPFs, providing advice on key decisions and ensuring that they are efficiently and effectively managed in compliance with policies and standards. At the global-level, the Pooled Fund Working Group (PFWG) brings together key stakeholders (representing donors, NGOs and UN agencies) to provide policy guidance. For more information, visit <a href="https://www.unocha.org/our-work/humanitarian-financing/country-based-pooled-funds-cbpfs/cbpfs-guidelines" target="_blank">www.unocha.org/our-work/humanitarian-financing/country-based-pooled-funds-cbpfs/cbpfs-guidelines</a>
+                </p>
+                <p>
+                    <span>Emergency Cash Grant (ECG)</span> assists countries affected by natural disasters. These grants enable OCHA to quickly release funds to support relief efforts in the immediate aftermath of a disaster. As the custodian of the fund, OCHA evaluates requests and make determinations on the appropriate allocation of cash grants. The allocation amount per disaster cannot exceed $100,000. The ECG was established by UN General Assembly Resolution 2816 in 1971 and later amended and updated by subsequent resolutions. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The RC Office (or, if applicable, the RC/HC) drafts the grant request, and—if approved— receives the disbursed funds and determines allocation in consultation with in-country partners. The RC/HC establishes the implementation arrangements, either through direct purchasing by UNDP or by channeling the funds to an implementing partner, such as a governmental service, a UN agency or fund, the Red Cross/Crescent, or an NGO. Regardless of the channeling mechanism, the RC/HC remains responsible for the use of the funds. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Requests for Emergency Cash Grants can be initiated from different sources, including the Office of the RC/HC, the OCHA Country or Regional Office, the Permanent Mission in Geneva or New York or directly from the Government of the affected country. Upon verification that the recipient country has requested and welcomes international assistance, the Office of the RC/HC prepares a written request to the OCHA Director of Operations. </p>
+                <p>
+                    <span><a href="https://media.ifrc.org/ifrc/dref/" title="" target="_blank">IFRC Disaster Relief Emergency Fund (DREF)</a></span> is a pool of un-earmarked funds that are reserved to ensure a rapid response by National Societies in disasters, crises and health emergencies. The DREF can provide amounts for both small and large-scale operations. DREF finances short-term relief to preserve life and provide basic sustenance. Allocations range from 20,000 Swiss Francs (CHF) to one million CHF. </p>
+                <p> If the scale of planned interventions cannot be met by a DREF alone, an emergency appeal may be launched. This is an international marketing and positioning document launched by the IFRC at the request of a National Society to generate funding. An appeal budget may cover the cost of FACT, ERUs, RDRTs and other IFRC global response tools, as well as the mobilization of international and national staff. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> DREF is available to all 190 National Societies and has two main purposes. It provides funding for the IFRC and National Societies to respond to large scale disasters (loan facility), and for National Society responses to small- and medium-scale disasters and health emergencies for which no international appeal will be launched or when support from other actors is not foreseen (grant facility). </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> DREF is managed by the IFRC Secretariat in Geneva, Switzerland. All requests for DREF allocations are reviewed on a case-by-case basis. Funds can be authorized and released within 24 hours. For more information, visit <a href="https://media.ifrc.org/ifrc/dref/" title="" target="_blank">media.ifrc.org/ifrc/dref</a>
+                </p>
+                <p>
+                    <span>UN Development Programme (UNDP) TRAC 1.1.3 Category II Resources</span> are used for coordinating a response to sudden onset crises, conducting needs assessments, initiating early recovery frameworks, and establishing the foundations for sustainable recovery. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> TRAC 1.1.3 Category II Resources are made available to UNDP country programmes in support of national authorities. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Following an event requiring immediate emergency support, the UN RC/UNDP Resident Representative may send a request for an emergency allocation for Category II Resources of up to $100,000 to the UNDP Crisis Response Unit and the Regional Bureau. Under exceptional circumstances, an amount exceeding $100,000 may be requested. Requests for Category II Resources can be made for each distinct event within the same country. </p>
+                <p>
+                    <span><a href="https://www.worldbank.org/pef" title="" target="_blank">Pandemic Emergency Financing Facility (PEF)</a></span> provides surge funding for response efforts to help prevent rare, high-severity disease outbreaks from becoming more deadly and costly pandemics. The PEF covers six viruses that are most likely to cause a pandemic, including new Orthomyxoviruses (new influenza pandemic virus A), Coronaviridae (SARS, MERS), Filoviridae (Ebola, Marburg) and other zoonotic diseases (Crimean Congo, Rift Valley, Lassa fever). The PEF was developed in 2016 by the World Bank Group in collaboration with the WHO, and it is supported by Japan and Germany as well as private sector partners. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The PEF covers all low-income countries that qualify for credits from the World Bank’s International Development Association (IDA). Eligible countries can receive timely, predictable, and coordinated surge financing if affected by an outbreak that meets PEF’s activation criteria. PEF also provides funding to PEF-accredited international agencies involved in the response to a major outbreak. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Through a combination of insurance financed by bonds and derivatives, the PEF insurance window will make available up to $425 million for outbreaks of the six covered viruses that meet the activation criteria. To complement the insurance window, the PEF also has a $55 million cash window. This provides the flexibility to make resources available for outbreaks that have not met, or will not meet, the criteria of the insurance window. The cash window covers a wider range of infectious disease outbreaks as well as single-country outbreaks. The insurance window, operational since July 2017, has an initial period of 3 years (with the possibility of being extended), and the cash window will be operational in 2018. </p>
+                <p> The PEF’s insurance window will rely on clear, parametric activation criteria designed with publicly available data. To be eligible for PEF financing under the insurance window, an outbreak must meet specific criteria related to its severity. These criteria are based on the size, growth and spread of the outbreak. If these criteria are met, then the affected countries and/ or eligible international responders may submit a request for funding from the PEF. For more information, visit <a href="https://www.worldbank.org/en/topic/pandemics/brief/pandemic-emergency-financing-facility" target="_blank">www.worldbank.org/pef</a>
+                </p>
+                <p>
+                    <span><a href="https://www.agendaforhumanity.org/initiatives/gpp" title="" target="_blank">Global Preparedness Partnership (GPP)</a></span> provides guidance and funding to UN Member States to support their national disaster preparedness efforts. Envisaged as a comprehensive service linking global initiatives to the national level and national initiatives to the community level, the GPP seeks to support alignment of the various national and international preparedness activities within a country. The GPP ensures a combined and coherent multi- partner effort and creates synergies among their preparedness work. The GPP’s Financial Core Partners include FAO, OCHA, UNDP, the V20 <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="The V20 or “Vulnerable Twenty” consists of the 20 countries around the world most affected by crises related to climate change. The V20 members are Afghanistan, Bangladesh, Barbados, Bhutan, Costa Rica, Ethiopia, Ghana, Kenya, Kiribati, Madagascar, Maldives, Nepal, Philippines, Rwanda, Saint Lucia, Tanzania, Timor-Leste, Tuvalu, Vanuatu and Vietnam.">5</button> group of countries, the World Bank, and WFP. Other partners include the Capacity for Disaster Reduction Initiative (CADRI), the Global Network of Civil Society Organisations for Disaster Reduction (GNDR), IFRC, and the United Nations Office for Project Services (UNOPS). </p>
+                <p> A Multi-Partner Trust Fund (MPTF) has been established to support the GPP. It is led by a Steering Committee co-chaired by a V20 and a donor representative. An Operational Subcommittee oversees operational decision-making and fund capitalisation. Both are supported by a secretariat based in Geneva, Switzerland and hosted by UNDP. There are no set amounts of funding that can be leveraged through the GPP’s MPTF for a country’s programme, but the requesting Government must commit resources to preparedness activities as well. The GPP plans to take applications for funding every six months. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The goal of the GPP is to support national Governments in their disaster preparedness efforts. This partnership is available to any country, although it is initially focused on supporting V20 member States. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> For more information, visit <a href="https://www.agendaforhumanity.org/initiatives/3840" target="_blank">www.agendaforhumanity.org/initiatives/gpp</a> or contact the GPP Secretariat at <a href="mailto:global@preparednesspartnership.org">global@preparednesspartnership.org</a>
+                </p><br>
+                <h4 class="title-blue">2. REGIONAL FINANCING MECHANISMS</h4>
+                <p>
+                    <span><a href="https://www.adb.org/site/funds/funds/asia-pacific-disaster-response-fund-apdrf" title="" target="_blank">Asia-Pacific Disaster Response Fund (APDRF)</a></span> is a fund that provides incremental grant resources to Asian Development Bank’s (ADB) developing member countries to restore life-preserving services to communities following major disasters triggered by natural hazard events. The APDRF helps bridge the gap between existing ADB arrangements that support disaster risk reduction and early recovery and reconstruction assistance. </p>
+                <p> APDRF provides grants up to $3 million per event. Factors that may influence the size of the grant include (1) the geographical extent of damage; (2) initial estimates of people affected; (3) the response capacity of key Government agencies in the country; and (4) the date and magnitude of the last disaster that affected the country (thereby taking into account the cumulative effect of the disaster on a country’s ability to respond). Each distinct declaration of a disaster is regarded as a separate event and is eligible for assistance. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> All ADB DMCs are eligible for grant assistance from the APDRF. The grants are provided to central Governments. They may then allocate funds to specific national and local Government agencies and to other suitable national or international entities, including NGOs. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Assistance may be granted once the following emergency conditions have been met: (1) a natural disaster has occurred in a DMC; (2) an emergency has been officially declared that is of a scale beyond the capacity of the country and its own agencies to meet the immediate expenses necessary to restore life-saving services to the affected populations; and (3) the UN HC/RC has confirmed the scale and implications of the disaster and has indicated a general amount of funding that would be required to assist in alleviating the situation. For more information, visit <a href="https://www.adb.org/site/funds/funds" target="_blank">www.adb.org/site/funds/funds</a>
+                </p>
+                <p>
+                    <span><a href="https://ahacentre.org/" title="" target="_blank">ASEAN Disaster Management and Emergency Relief Fund (ADMER Fund)</a></span> supports implementation of the AADMER Work Programmes, emergency response in ASEAN Member States and the operational activities of the AHA Centre. The ADMER Fund is administered by the ASEAN Secretariat and is replenished through voluntary contributions from ASEAN Member States, and other public and private partners, including ASEAN Dialogue Partners and assisting (donor) Governments. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> ADMER Fund is for ASEAN Member States and the AHA Centre. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> The Executive Director of the AHA Centre has been given discretionary authority to release the disbursement of up to $50,000 per emergency incident from the ADMER Fund. </p>
+                <p>
+                    <span><a href="http://www.searo.who.int/entity/searhef/en/" title="" target="_blank">South-East Asia Regional Health Emergency Fund (SEARHEF)</a></span> is a mechanism that allows for a rapid response to disasters to fill in critical gaps that may cause further morbidity and mortality. The fund was established in 2007 by the WHO South-East Asia Regional Office and its 11 Member States. <button type="button" class="btn-tootltip" data-toggle="tooltip" data-placement="bottom" title="The WHO South East Asia Region has 11 Member States: Bangladesh, Bhutan, Democratic People’s Republic of Korea, India, Indonesia, Maldives, Myanmar, Nepal, Sri Lanka, Thailand, Timor-Leste.">6</button>
+                </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> SEARHEF is intended for the 11 Member States in the WHO South East Asia Region. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> Through the WHO country offices, the member countries can obtain financial support from the fund within 24 hours of an emergency. For any inquiries, please contact <a href="mailto:searhef@who.int">searhef@who.int</a> For more information, visit <a href="http://www.searo.who.int/entity/searhef/en/" target="_blank">www.searo.who.int/entity/searhef/en</a>
+                </p><br>
+                <h4 class="title-blue">3. STRATEGIC PLANNING AND RESOURCE MOBILIZATION TOOLS</h4>
+                <p>
+                    <span><a href="https://www.humanitarianresponse.info/en/programme-cycle/space/document/flash-appeal-guidance-and-template" title="" target="_blank">Flash Appeal</a></span> is an initial inter-agency humanitarian response strategy and resource mobilization tool. It provides an analysis of the scope and severity of the humanitarian crisis and gives a concise overview of urgent life-saving needs. It also prioritizes actions and funding requirements for the immediate phase of the response. It is published immediately (ideally within 48 hours) after the disaster strikes and covers the first three to six months of the response. It is issued in sudden-onset emergencies or when there is significant and unforeseen escalation in protracted crises. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> UN agencies, national and international NGOs, and the RCRC Movement can include projects in the Flash Appeal to support the overall strategic objectives of the inter-agency response. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> The Flash Appeal process is initiated by the UN RC or HC in consultation with the country team and national Government. The appeal is developed with the initial support of the UNDAC teams if they are already deployed. In countries without an OCHA presence, the regional office or OCHA headquarters supports the country team to develop the Flash Appeal. For examples on Flash Appeals, visit <a href="https://www.humanitarianresponse.info/en/documents/document-type/other-response-plans/space/1141" target="_blamk">www.humanitarianresponse.info/en</a>
+                </p>
+                <section class="section-study">
+                    <h4>CASE STUDY 6. THE FLASH APPEAL IN ACTION: NEPAL</h4>
+                    <p> Following the 7.8 magnitude earthquake in Nepal in April 2015, the UN and humanitarian partners issued a Flash Appeal to humanitarian organizations calling for US$42 million to support and complement the Government of Nepal’s response to the needs of 2.8 million affected people. The Flash Appeal prioritized the most urgent, life-saving activities and covered emergency needs in food, nutrition, livelihoods, shelter, WASH and protection for the next six months. </p>
+                </section>
+                <p>
+                    <span><a href="https://www.humanitarianresponse.info/en/programme-cycle/space/page/strategic-response-planning" title="" target="_blank">Humanitarian Response Plan (HRP)</a></span> is a joint strategy, advocacy and resource mobilization tool that is developed by a country team to respond to a protracted or sudden onset emergency requiring international humanitarian assistance for more than six months. The plan articulates the shared vision of how to respond to the assessed and expressed needs of the affected population. The development of an HRP is a key step in the <strong>Humanitarian Programme Cycle</strong> and is carried out only when humanitarian needs have been understood and analysed through the <strong>Humanitarian Needs Overview (HNO).</strong> The HRP is generally launched when humanitarian needs extend beyond the period of a Flash Appeal and may form part of a multi-year response strategy. </p>
+                <h5 class="title-five">WHO IS IT FOR?</h5>
+                <p> The HRP is a response planning tool for country-based decision makers, such as the HC and Humanitarian Country Team, UN agencies, local and international NGOs, and cluster coordinators. Once a common strategy is agreed upon, UN agencies, NGOs and the RCRC Movement develop projects to support the operationalization of the strategy. </p>
+                <h5 class="title-five">HOW IS IT ACCESSED?</h5>
+                <p> The HC initiates and provides leadership in the planning process and, together with the HCT and in consultation with the Government, sets the priorities and strategy and ensures that the cluster response plans comply with the overall strategy. Organizations and clusters/ sectors participate in the process and contribute to the development of the plan. For more information on HRP, visit <a href="https://www.humanitarianresponse.info/en/programme-cycle/space/page/strategic-response-planning" target="_blank">www.humanitarianresponse.info/en</a>
+                </p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="arr-top">
+                <div class="arr-top-item">
+                    <i class="icon-arr-top"></i>
+                    <span class="textreplacement">BACK TO THE TOP</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-md-6">
+                        <div class="footer-contact">
+                            <strong>FOLLOW US</strong>
+                            <div class="social">
+                                <a href="https://www.facebook.com/UNOCHA/" target="_blank" title="Facebook" class="social-face"><i class="icon icon-facebook"></i></a>
+                                <a href="https://www.instagram.com/ochaasiapac/" title="Instagram" target="_blank" class="social-ig"><i class="icon icon-instagram"></i></a>
+                                <a href="https://twitter.com/OCHAAsiaPac/" title="Twitter" target="_blank" class="social-twitt"><i class="icon icon-twitter"></i></a>
+                            </div>
+                            <p> Regional Office for Asia and the Pacific (ROAP)<br> 12 Floor Block B, United Nations Secretariat Building<br> Rajdamnern Nok Avenue, Bangkok 10200, Thailand </p>
+                            <div class="footer-contact-detail">
+                                <a href="tel:+6622881234" title="">+66 (0) 2288 1234</a><span>|</span>
+                                <a href="mailto:?subject=CONTACT%20US&body=">ocha-roap@un.org</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <div class="footer-ocha">
+                            <strong>OCHA SITES</strong>
+                            <ul>
+                                <li>
+                                    <a href="https://reliefweb.int/" target="_blank" title="Reliefweb Logo">
+                                        <img src="images/ocha/reliefweb.png" alt="Reliefweb Logo">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://data.humdata.org/" target="_blank" title="HDX Logo">
+                                        <img src="images/ocha/HDX.png" alt="HDX Logo">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://gdacs.org/" target="_blank" title="GDACS Logo">
+                                        <img src="images/ocha/gdacs.png" alt="GDACS Logo">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="footer-ocha-detail">
+                                <a href="https://www.un.org/en/sections/about-website/copyright/index.html" title="Copyright ">Copyright </a>
+                                <a href="https://www.un.org/en/sections/about-website/terms-use/" title="Terms of Use">Terms of Use</a>
+                                <a href="https://www.un.org/en/sections/about-website/privacy-notice/" title="Privacy Notice">Privacy Notice</a>
+                                <p> &copy; United Nations Office for the Coordination of Humanitarian Affairs </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
