@@ -113,7 +113,7 @@ $(document).ready(function(){
 	var url = encodeURIComponent($(location).attr('origin')+$(location).attr('pathname'));
 	$("#hid_link").val($(location).attr('origin')+$(location).attr('pathname'));
 
-	$(".social-face").click(function(){
+	$(".social-face-top").click(function(){
 		window.open("https://www.facebook.com/sharer/sharer.php?u="+url);
 	});
 //   $(".social-ig").click(function(){
